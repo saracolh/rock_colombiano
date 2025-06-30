@@ -9,4 +9,5 @@ location,Ubicación
 latitude,Latitud
 longitude,Longitud
 source,Fuente
+relation,Relación
 identifier,Identificador de la fuente,,
