@@ -1,0 +1,14 @@
+{% if page.source %}
+  <dt>Fuente:</dt>
+  <dd><a href="{{ page.source }}" target="_blank" rel="noopener">{{ page.source }}</a></dd>
+{% endif %}
+
+{% if page.relation %}
+  <dt>Relación:</dt>
+  <dd>
+    {% assign related = page.relation | split: ";" %}
+    {% for r in related %}
+      <a href="{{ site.baseurl }}/items/{{ r | strip }}">{{ r | strip }}</a>{% unless forloop.last %}; {% endunless %}
+    {% endfor %}
+  </dd>
+{% endif %}
