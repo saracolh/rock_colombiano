@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link
 title,Título,
 creator,Creador,
-date,Fecha de creación,
+author, Autor
 display_date, Fecha
 description,Descripción,
 subject,Temas,true
@@ -10,7 +10,3 @@ latitude,Latitud
 longitude,Longitud
 source,Fuente
 identifier,Identificador de la fuente,,
-type,Tipo,
-format,Formato,
-rights,Rights,
-rightsstatement,Rights Statement,,true
