@@ -1,5 +1,5 @@
 ---
-title: Locations
+title: Ubicación
 layout: cloud
 permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
