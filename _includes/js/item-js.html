@@ -522,10 +522,29 @@ if (record_index != -1 && cb_items[record_index].parentid) {
 } else {
     /* no item with that ID */
     document.getElementById("bc-title").innerHTML = 'Not found?';
-    document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse.html" | relative_url }}">Browse page</a> to find an item.';
+    document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse.html" | relative_url }}">Página de navegación</a> to find an item.';
 }
 
 /* all done, so hide loading animation */
+    // Relación: mostrar objectid como enlaces con título
+if (cb_items[record_index].relation) {
+    const relationIDs = cb_items[record_index].relation.split(";").map(id => id.trim());
+    let relationHTML = '<div class="mt-4"><h5>Relación</h5><ul>';
+
+    relationIDs.forEach(relID => {
+        const relatedItem = cb_items.find(item => item.objectid === relID);
+        if (relatedItem) {
+            relationHTML += `<li><a href="${site_url}/items/${relatedItem.objectid}.html">${relatedItem.title}</a></li>`;
+        } else {
+            relationHTML += `<li>${relID}</li>`;
+        }
+    });
+
+    relationHTML += "</ul></div>";
+    document.getElementById("item-metadata").insertAdjacentHTML("beforeend", relationHTML);
+}
+
+        
 document.getElementById("loading").style.display = "none";
 
 /* function to stop video/audio/youtube/vimeo when the user clicks the next button, the previous button, or close button on a compound object modal */
