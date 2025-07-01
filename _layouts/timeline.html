@@ -1,5 +1,5 @@
 ---
-# "Timeline" page
+# Página de "Línea de tiempo"
 layout: page
 custom-foot: js/timeline-js.html
 ---
@@ -14,7 +14,7 @@ custom-foot: js/timeline-js.html
 {% endif %}
 {%- assign items = items | where_exp: 'item','item[field]' | sort: field -%}
 {%- assign raw-dates = items | map: field | compact | uniq -%}
-{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
+{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}
 {%- assign uniqueYears = clean-years | replace: ";;",";" | split: ";" | compact | uniq | sort -%}
 {%- if site.data.theme.year-navigation -%}
 {%- assign navYears = site.data.theme.year-navigation | split: ";" -%}
@@ -27,7 +27,7 @@ custom-foot: js/timeline-js.html
 {%- if navYears -%}
 <div class="dropdown float-end" id="year-nav">
     <button class="btn btn-primary dropdown-toggle" type="button" id="yearButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Year
+        Año
     </button>
     <div class="dropdown-menu" aria-labelledby="yearButton">
         {% for y in navYears %}
@@ -38,7 +38,7 @@ custom-foot: js/timeline-js.html
 
 {{ content }}
 
-<h3><a href="#y{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#y{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
+<h3><a href="#y{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> a <a href="#y{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
 
 <table id="timeline" class="table table-striped">
     <tbody>
@@ -67,7 +67,7 @@ custom-foot: js/timeline-js.html
                                     {% elsif item.format contains 'compound' %}{{ '/assets/lib/icons/' | relative_url }}{{ icons.icon-compound-object }}.svg
                                     {% elsif item.format contains 'multiple' %}{{ '/assets/lib/icons/' | relative_url }}{{ icons.icon-multiple }}.svg
                                     {% else %}{{ '/assets/lib/icons/' | relative_url }}{{ icons.icon-default }}.svg
-                                    {%- endif -%}" alt="filetype thumbnail">
+                                    {%- endif -%}" alt="icono del tipo de archivo">
                                 </div>
                             </div>
                             {% endif %}
@@ -80,3 +80,4 @@ custom-foot: js/timeline-js.html
         {% endfor %}
     </tbody>
 </table>
+
