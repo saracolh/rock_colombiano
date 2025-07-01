@@ -229,7 +229,8 @@ sortOptions.forEach((button) => {
     // send to sort and filter
     if (field != 'random') {
         sorting(items, field);
-        filterItems(items, query);
+        sorting(items, "creator");
+    
     }
     else {
         shuffle(items);
