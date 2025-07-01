@@ -121,8 +121,8 @@ function filterItems(arr,q) {
         }
     }
     // add number 
-    document.querySelector("#numberOf").innerHTML = filteredItems.length + " of " + items.length + " items";
-    
+    document.querySelector("#numberOf").innerHTML = filteredItems.length + " de " + items.length + " elementos";
+
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";
     for (var i = 0, len = filteredItems.length; i < len; i++) {
