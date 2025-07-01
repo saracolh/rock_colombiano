@@ -152,7 +152,7 @@ function shuffle(array) {
 /* init browse page */
 
 /* randomize items once at page load */
-shuffle(items);
+sorting(items, "creator");
 
 /* set some elements */ 
 var loadingIcon = document.querySelector("#loadingIcon");
@@ -228,8 +228,8 @@ sortOptions.forEach((button) => {
     sortFilter.innerHTML = display_name;
     // send to sort and filter
     if (field != 'random') {
-        sorting(items, field);
         sorting(items, "creator");
+        filterItems(items, query);
     
     }
     else {
