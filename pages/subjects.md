@@ -1,11 +1,12 @@
 ---
-title: Temas
+title: Palabras clave de la colección
 layout: cloud
 permalink: /subjects.html
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Explorar temas
+## ¿Qué temas contiene esta colección?
 
-Utiliza esta nube de palabras para explorar los términos y temas de la colección.  
-El tamaño de cada palabra depende de su frecuencia y todas las palabras enlazan a una búsqueda correspondiente dentro de la colección.
+Explora esta nube de palabras para conocer los términos más frecuentes usados en la colección.  
+El tamaño de cada palabra indica cuántos documentos están relacionados con ella.  
+Haz clic en cualquiera para ver los materiales asociados.
