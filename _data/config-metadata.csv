@@ -5,9 +5,9 @@ author,Autor,,
 display_date,Fecha,,
 description,Descripción,,
 subject,Temas,true,
-location,,, 
-latitude,,, 
-longitude,,, 
+location,Ubicación,true,
+latitude,Latitud
+longitude,, 
 source,Fuente,,true
 relation,Relación,,
 identifier,Identificador de la fuente,,true
