@@ -1,13 +1,13 @@
 field,display_name,browse_link,external_link
-title,Título,
-creator,Creador,
-author, Autor
-display_date, Fecha
-description,Descripción,
+title,Título
+creator,Creador
+author,Autor
+display_date,Fecha
+description,Descripción
 subject,Temas,true
 location,Ubicación
 latitude,Latitud
 longitude,Longitud
-source,Fuente
+source,Fuente,,true
 relation,Relación
-identifier,Identificador de la fuente,,
+identifier,Identificador de la fuente,,true
