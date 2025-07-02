@@ -1,14 +1,12 @@
 ---
-title: Temas
+title: Palabras clave de la colección
 layout: cloud
 permalink: /subjects.html
-# Default subject page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
-# a cloud visualization will be added below the content in this file
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Browse Subjects
+## ¿Qué temas contiene esta colección?
 
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Explora esta nube de palabras para conocer los términos más frecuentes usados en la colección.  
+El tamaño de cada palabra indica cuántos documentos están relacionados con ella.  
+Haz clic en cualquiera para ver los materiales asociados.

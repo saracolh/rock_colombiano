@@ -92,7 +92,7 @@ function makeCard(obj) {
         card += '"></span></a></small></p>';
     }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">Ver registro completo</a>';
     // close divs
     card += '</div></div></div>';
     // send back big string
@@ -121,8 +121,8 @@ function filterItems(arr,q) {
         }
     }
     // add number 
-    document.querySelector("#numberOf").innerHTML = filteredItems.length + " of " + items.length + " items";
-    
+    document.querySelector("#numberOf").innerHTML = filteredItems.length + " de " + items.length + " elementos";
+
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";
     for (var i = 0, len = filteredItems.length; i < len; i++) {
@@ -152,7 +152,7 @@ function shuffle(array) {
 /* init browse page */
 
 /* randomize items once at page load */
-shuffle(items);
+sorting(items, "creator");
 
 /* set some elements */ 
 var loadingIcon = document.querySelector("#loadingIcon");
@@ -228,8 +228,9 @@ sortOptions.forEach((button) => {
     sortFilter.innerHTML = display_name;
     // send to sort and filter
     if (field != 'random') {
-        sorting(items, field);
+        sorting(items, "creator");
         filterItems(items, query);
+    
     }
     else {
         shuffle(items);
