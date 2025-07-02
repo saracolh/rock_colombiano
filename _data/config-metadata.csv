@@ -8,8 +8,8 @@ subject,Temas,true,
 location,Ubicación,true,
 latitude,Latitud
 longitude,, 
-source,Fuente,,true
-relation,Relación,,
+source,Fuente,,
+relation,Relación,,true
 identifier,Identificador de la fuente,,true
 artefactus_demiurgos,Artefactus - Demiurgos,,true
 artefactus_lectores,Artefactus - Lectores,,true
