@@ -2,16 +2,10 @@ field,display_name,browse_link,external_link
 title,Título,,
 creator,Creador,,
 author,Autor,,
-display_date,Fecha,,
+display_date,Fecha,true
 description,Descripción,,
 subject,Temas,true,
-location,Ubicación,true,
-latitude,Latitud
-longitude,Longitud
+location,Localización,true,
 source,Fuente,,
-relation,Relación,,true
-identifier,Identificador de la fuente,,true
-artefactus_demiurgos,Artefactus - Demiurgos,,true
-artefactus_lectores,Artefactus - Lectores,,true
-artefactus_rinconlibroalbum,Artefactus - Rincón Libro Álbum,,true
-artefactus_ventana_libroalbum,Artefactus - Ventana Libro Álbum,,true
+related_url,Enlace,,true
+
