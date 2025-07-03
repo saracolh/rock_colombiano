@@ -36,7 +36,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
         itemFormat = record.format.replace("_", " ").toUpperCase();
     }
     document.getElementById("item-format").innerHTML = itemFormat;
-    document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info"><use xlink:href="{{ "/assets/lib/cb-icons.svg" | relative_url }}#arrow-down"/></svg></a>';
+    document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Información del artículo <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info"><use xlink:href="{{ "/assets/lib/cb-icons.svg" | relative_url }}#arrow-down"/></svg></a>';
     
     /* add object */ 
     var format = "" + record.format;
@@ -63,7 +63,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
             itemDisplay = '<div class="ratio ratio-16x9"><iframe title="video embed ' + item.title + '"src="https://player.vimeo.com/video/' + item.vimeoid + '" allowfullscreen></iframe></div>';
             itemDownload = '<a href="https://vimeo.com/' + item.vimeoid + '" target="_blank" rel="noopener" class="btn btn-outline-primary" title="Object download">Ver en Vimeo</a>';
         } else if (item.format.includes('video')) {
-            itemDisplay = '<video controls class="w-100"><source src="' + findFileLink(item) + '">Your browser does not support the video tag. Please <a href="' + findFileLink(item) + '">download the video file</a>.</video>';
+            itemDisplay = '<video controls class="w-100"><source src="' + findFileLink(item) + '">Your browser does not support the video tag. Please <a href="' + findFileLink(item) + '">descargar el archivo de vídeo</a>.</video>';
             itemDownload = '<a href="' + findFileLink(item) + '" target="_blank" rel="noopener" class="btn btn-outline-primary" title="Object download">Download ' + item.format.split("/").pop().toUpperCase() + '</a>';
         } else if (item.format.includes('record')) {
             itemDisplay = item === record ? '' : '<img class="w-25" src="{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-record }}.svg" alt="No preview found">';
@@ -243,7 +243,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
                                             </div>
                                             <div class="col-1 col-md-2 text-end">
                                                 <button data-bs-target="#${itemNext}" data-bs-toggle="modal" onclick="stopMedia('${mediaType}', '${compoundItem[i].objectid}');window.location.hash='${itemNext}'" class="btn btn-outline-dark btn-sm next-child-button">
-                                                    <span class="d-none d-md-inline">Next Item</span>
+                                                    <span class="d-none d-md-inline">Siguiente</span>
                                                     <svg class="bi icon-sprite" role="img" aria-label="Next Item">
                                                         <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-right"/>
                                                     </svg>
@@ -403,8 +403,8 @@ function displayItem(record, prev_id, next_id, compound_object) {
             <a id="next-button" class="next btn btn-lg btn-secondary" href="${forwardUrl}">&raquo;</a>
         </div>`;
     /* add bottom buttons to page */
-    document.getElementById("browse-buttons").innerHTML = `<a id="prev-button" class="btn btn-secondary" href="${backUrl}">&laquo; Previous</a>
-        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+    document.getElementById("browse-buttons").innerHTML = `<a id="prev-button" class="btn btn-secondary" href="${backUrl}">&laquo; Anterior</a>
+        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Volver a la navegación</a>
         <a id="for-button" class="btn btn-secondary" href="${forwardUrl}">Next &raquo;</a>`;
 
     /* add back forward key functionality for modal arrows */
