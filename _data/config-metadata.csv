@@ -11,8 +11,3 @@ longitude,Longitud
 source,Fuente,,
 related_url, Enlace,,true
 relation,Relación,,true
-identifier,Identificador de la fuente,,true
-artefactus_demiurgos,Artefactus - Demiurgos,,true
-artefactus_lectores,Artefactus - Lectores,,true
-artefactus_rinconlibroalbum,Artefactus - Rincón Libro Álbum,,true
-artefactus_ventana_libroalbum,Artefactus - Ventana Libro Álbum,,true
