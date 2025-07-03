@@ -26,9 +26,9 @@ L.Control.FuseSearch = L.Control.extend({
     
     options: {
         position: 'topright',
-        title: 'Buscar',
+        title: 'Search',
         panelTitle: '',
-        placeholder: 'Buscar',
+        placeholder: 'search',
         caseSensitive: false,
         threshold: 0.5,
         maxResultLength: null,
