@@ -7,7 +7,7 @@ description,Descripción,,
 subject,Temas,true,
 location,Ubicación,true,
 latitude,Latitud
-longitude,, 
+longitude,Longitud
 source,Fuente,,
 relation,Relación,,true
 identifier,Identificador de la fuente,,true
