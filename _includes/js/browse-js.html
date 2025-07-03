@@ -227,15 +227,15 @@ sortOptions.forEach((button) => {
     button.classList.add("active");
     sortFilter.innerHTML = display_name;
     // send to sort and filter
-    if (field != 'random') {
-        sorting(items, "creator");
-        filterItems(items, query);
-    
-    }
-    else {
-        shuffle(items);
-        filterItems(items, query);
-    }
+   // dentro del addEventListener del botón de orden
+if (field != 'random') {
+    sorting(items, field);  // ← esta línea es la importante
+    filterItems(items, query);
+}
+else {
+    shuffle(items);
+    filterItems(items, query);
+}
   });
 }); 
 </script>
