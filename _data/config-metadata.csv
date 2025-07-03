@@ -9,6 +9,7 @@ location,Ubicación,true,
 latitude,Latitud
 longitude,Longitud
 source,Fuente,,
+related_url, Enlace,,true
 relation,Relación,,true
 identifier,Identificador de la fuente,,true
 artefactus_demiurgos,Artefactus - Demiurgos,,true
