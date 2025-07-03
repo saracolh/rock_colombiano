@@ -232,7 +232,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
                                                     <svg class="bi icon-sprite" role="img" aria-label="Previous Item">
                                                         <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-left"/>
                                                     </svg>
-                                                    <span class="d-none d-md-inline">Previous Item</span>
+                                                    <span class="d-none d-md-inline">Anterior</span>
                                                 </button>
                                             </div>
                                             <div class="col-9 col-md-8 text-center">
@@ -405,7 +405,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
     /* add bottom buttons to page */
     document.getElementById("browse-buttons").innerHTML = `<a id="prev-button" class="btn btn-secondary" href="${backUrl}">&laquo; Anterior</a>
         <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Volver a la navegación</a>
-        <a id="for-button" class="btn btn-secondary" href="${forwardUrl}">Next &raquo;</a>`;
+        <a id="for-button" class="btn btn-secondary" href="${forwardUrl}">Siguiente &raquo;</a>`;
 
     /* add back forward key functionality for modal arrows */
     function leftModalArrowPressed() {
