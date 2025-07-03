@@ -2,9 +2,9 @@
 title: Acerca de la Colección
 layout: about
 permalink: /about.html
-# include CollectionBuilder info at bottom
+
 credits: false
-# Edit the markdown on in this file to describe your collection
+# Esta colección digital obedece a mis años de experiencia como docente en el que los resultados han sido varias publicaciones, trabajos y proyectos documentales que surgieron del trabajo en equipo con colegas y estudiantes.... 
 # Look in _includes/feature for options to easily add features to the page
 ---
 
