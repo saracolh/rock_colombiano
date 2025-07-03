@@ -10,9 +10,9 @@ credits: false
 
 # {% include feature/jumbotron.html image="/assets/img/art1" %}
 
-# {% include feature/jumbotron.html image="/assets/img/art2" %}
 
-# {% include feature/jumbotron.html image="/assets/img/rafaelayala" %}
+
+
 
 
 # {% include feature/nav-menu.html sections="Acerca de esta colección;Acerca de Rafael Ayala" %}
