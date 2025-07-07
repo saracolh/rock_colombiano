@@ -6,6 +6,6 @@ display_date,Fecha,true
 description,Descripción,,
 subject,Temas,true,
 location,Localización,,
-source,Fuente,,
+source,Fuente,, 
 object_location,Enlace,true
 
