@@ -7,5 +7,5 @@ description,Descripción,,
 subject,Temas,true,
 location,Localización,true,
 source,Fuente,,
-related_url,Enlace,,true
+object_location,Enlace,,true
 
