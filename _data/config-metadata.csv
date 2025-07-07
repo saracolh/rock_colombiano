@@ -5,7 +5,7 @@ author,Autor,,
 display_date,Fecha,true
 description,Descripción,,
 subject,Temas,true,
-location,Localización,true,
+location,Localización,,
 source,Fuente,,
 object_location,Enlace,,true
 
