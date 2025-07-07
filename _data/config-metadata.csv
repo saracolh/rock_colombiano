@@ -4,7 +4,7 @@ creator,Creador,,
 author,Autor,,
 display_date,Fecha,,
 description,Descripción,,
-subject,Temas,true,
+subject,Temas,,
 location,Localización,,
 source,Fuente,, 
 object_location,Enlace,true
