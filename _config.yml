@@ -9,10 +9,10 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-url: https://rayalas25.github.io/rayalas/
+#url: https://collectionbuilder.github.io 
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /collectionbuilder-gh 
+#baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 
@@ -22,7 +22,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: "Artefactus del Saber: Donde la Techné, Episteme y Didaxis Tejen el Conocimiento"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: "Colección Archivo Digital - Rafael Ayala Sáenz"
+tagline: "Colección - Rafael Ayala Sáenz"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "En esta colección encontrarán soportes documentales varios que obedecen a los resultados de la participación en proyectos en el transcurso de mi vida docente"
