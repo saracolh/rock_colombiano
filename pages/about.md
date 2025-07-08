@@ -8,7 +8,7 @@ credits: false
 
 {% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Rafael Ayala" %}
 
-## Acerca de la colección
+## Acerca de la Colección
 
 **Artefactus del Saber: Donde la Techné, Episteme y Didaxis Tejen el Conocimiento**
 
@@ -27,7 +27,7 @@ Este sitio es una invitación a explorar y construir conocimiento, donde la **di
 **Artefactus del Saber** está diseñado para estudiantes, académicos, profesionales y cualquier mente curiosa interesada en el vasto universo de la comunicación, la cultura y la educación. Te invitamos a navegar, leer, escuchar y explorar cada sección, descubriendo nuevos **artefactus** que te desafiarán e inspirarán en tu propio camino del saber, guiado por la **techné**, la **episteme** y la **didaxis** que aquí se tejen.
 ---
 
-## Acerca de Rafael Ayala Sáenz
+## Acerca de Rafael Ayala
 
 Profesional con **más de 30 años de trayectoria en la Educación Superior**, destacando en las funciones sustantivas de **docencia, investigación y proyección social** en reconocidas universidades públicas y privadas de Bogotá, D.C.
 
