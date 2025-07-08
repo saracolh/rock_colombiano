@@ -27,7 +27,7 @@ Este sitio es una invitación a explorar y construir conocimiento, donde la *did
 ---
 
 ## Acerca de Rafael Ayala
-
+`{% raw %}{% include feature/image.html objectid="/assets/imgrafaelayala" width="75" alt="Rafael Ayala en Laud Stereo" caption="This guy is good!"%}{% endraw %}`
 Profesional con **más de 30 años de trayectoria en la Educación Superior**, destacando en las funciones sustantivas de **docencia, investigación y proyección social** en reconocidas universidades públicas y privadas de Bogotá, D.C.
 
 Didacta en **Semiótica, Lingüística y Pedagogía**, con un enfoque aplicado a la descripción y explicación del proceso de la comunicación. Especializado en el análisis, comprensión, apreciación e interpretación de diversos **códigos (verbales y no verbales)** y **manifestaciones simbólicas** tales como el idioma español, géneros literarios, semiótica de la imagen, semiótica audiovisual, semiología, historia de la humanidad, así como de diversas expresiones artísticas (pintura, urbanismo, escultura, arquitectura, música, danza, cine e historia del arte).
