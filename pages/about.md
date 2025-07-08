@@ -8,7 +8,9 @@ position: center
 heading: Artefactus del Saber
 sub-heading: Colección archivo personal Rafael Ayala Sáenz
 padding: 6em
+
 ---
+{% include feature/jumbotron.html image="/assets/img/rafaelayala.png" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
