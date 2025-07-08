@@ -10,6 +10,7 @@ credits: false
 
 ## Acerca de la Colección
 
+
 ¡Bienvenido a **Artefactus del Saber**, el espacio digital donde la creación, la rigurosa información y el arte de enseñar se entrelazan como hilos en una trama vibrante!
 
 Así como un **artefactus** es una obra ingeniosa, concebida y elaborada con habilidad, este sitio web es el producto de más de 30 años de dedicación a la Educación, la investigación y la proyección social. Cada publicación aquí es un **artefactus** intelectual, meticulosamente diseñado para explorar y comprender la complejidad de la aptitud humana del lenguaje y el pensamiento, así como de la cultura. Es, en esencia, un creativo tejido de ideas, donde la **techné** de la práctica, la **episteme** del saber y la **didaxis** de la enseñanza efectiva y afectiva se hilvanan para formar un conocimiento robusto y coherente.
