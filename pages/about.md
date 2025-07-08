@@ -28,7 +28,7 @@ Este sitio es una invitación a explorar y construir conocimiento, donde la *did
 
 ---
 
-## Acerca de Rafael Ayala
+## Acerca de Rafael Ayala Sáenz
 
 Profesional con más de 30 años de trayectoria en la Educación Superior, destacando en las funciones sustantivas de docencia, investigación y proyección social en reconocidas universidades públicas y privadas de Bogotá, D.C.
 
