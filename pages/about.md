@@ -34,8 +34,9 @@ Profesional con **más de 30 años de trayectoria en la Educación Superior**, d
 
 Didacta en **Semiótica, Lingüística y Pedagogía**, con un enfoque aplicado a la descripción y explicación del proceso de la comunicación. Especializado en el análisis, comprensión, apreciación e interpretación de diversos **códigos (verbales y no verbales)** y **manifestaciones simbólicas** tales como el idioma español, géneros literarios, semiótica de la imagen, semiótica audiovisual, semiología, historia de la humanidad, así como de diversas expresiones artísticas (pintura, urbanismo, escultura, arquitectura, música, danza, cine e historia del arte).
 
-  {% include feature/image.html objectid="/assets/img/rafaelayala.png" caption="Rafael Ayala en LAUD 90.4 FM en Programa radial "Amantes del círculo polar", La U de Estéreo" width="100" %}
-  
+{% include feature/image.html objectid='/assets/img/rafaelayala.png' caption='Rafael Ayala en LAUD 90.4 FM en Programa radial "Amantes del círculo polar", La U de Estéreo' width='100' %}
+
+
 Amplia experiencia docente en **pregrado y posgrado**, en sistemas educativos formales, no formales, informales y de educación para el trabajo en Colombia. Dominio de las **modalidades presenciales, a distancia y virtuales**, en programas académicos como Comunicación Social y Periodismo, Mercadeo y Publicidad, Diseño Gráfico, Administración en Informática, Derecho, Psicología, Ingeniería de Sistemas, Licenciatura en Educación Básica (énfasis en Lengua Castellana e inglés), y programas de Salud y Seguridad en el Trabajo, Especialización de Docencia Universitaria y Maestría en Educación e Innovación.
 
 Como **Formador de Formadores**, ha capacitado a docentes de todos los niveles educativos (Preescolar, Básica, Media Vocacional, Pregrado y Postgrado) en aspectos **Macro, Meso y Micro curriculares**, abarcando Proyectos Educativos Institucionales, programas académicos y áreas del conocimiento. Para lo anterior se apoya en el enfoque centrado en los **resultados de aprendizaje y la planeación interdisciplinar**, así como en la **evaluación educativa desde el enfoque por competencias y el Modelo Basado en Evidencias** de las pruebas SABER.
