@@ -3,16 +3,10 @@ title: Artefactus del Saber
 layout: about
 permalink: /about.html
 credits: false
-about-featured-image: /assets/img/rafaelayala.png
-position: center
-heading: Artefactus del Saber
-sub-heading: Colección archivo personal Rafael Ayala Sáenz
-padding: 6em
-
 ---
-{% include feature/jumbotron.html image="/assets/img/rafaelayala.png" %}
+{% include feature/jumbotron.html image="/assets/img/art3.png" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="Acerca de la Colecciónn;Acerca de Rafael Ayala Sáenz" %}
 
 ## Acerca de la colección
 
