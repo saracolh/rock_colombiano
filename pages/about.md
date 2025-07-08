@@ -6,7 +6,7 @@ credits: false
 ---
 {% include feature/jumbotron.html image="/assets/img/art3.png" %}
 
-{% include feature/nav-menu.html sections="Acerca de la Colecciónn;Acerca de Rafael Ayala Sáenz" %}
+{% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Rafael Ayala" %}
 
 ## Acerca de la colección
 
@@ -28,11 +28,8 @@ Este sitio es una invitación a explorar y construir conocimiento, donde la *did
 
 ---
 
-## Acerca de Rafael Ayala Sáenz
+## Acerca de Rafael Ayala
 
-![Rafael Ayala](/assets/img/rafaelayala.png){: .img-fluid .rounded .shadow-sm width="250px" style="float:right; margin-left: 20px;" }
-
-**Rafael Ayala Sáenz**  
 Profesional con más de 30 años de trayectoria en la Educación Superior, destacando en las funciones sustantivas de docencia, investigación y proyección social en reconocidas universidades públicas y privadas de Bogotá, D.C.
 
 Didacta en Semiótica, Lingüística y Pedagogía, con un enfoque aplicado a la descripción y explicación del proceso de la comunicación. Especializado en el análisis, comprensión, apreciación e interpretación de diversos códigos (verbales y no verbales) y manifestaciones simbólicas tales como el idioma español, géneros literarios, semiótica de la imagen, semiótica audiovisual, semiología, historia de la humanidad, así como de diversas expresiones artísticas (pintura, urbanismo, escultura, arquitectura, música, danza, cine e historia del arte).
@@ -43,7 +40,7 @@ Como Formador de Formadores, ha capacitado a docentes de todos los niveles educa
 
 Destacada experiencia en el liderazgo de la Gestión Curricular, participando activamente en la propuesta, evaluación y ajuste de planes de estudios diseñados por competencias en los niveles Micro, Meso y Macro Curricular (pregrado, secundaria y primaria). Responsable de proponer actualizaciones y cambios en planes de estudio basados en competencias.
 
-Experiencia en el desarrollo de competencias investigativas en estudiantes de pregrado y postgrado a través de cursos de Metodología de la Investigación, Proyecto de Grado I y Proyecto de Grado. Ha dirigido trabajos de grado y orientado pasantías en investigación.
+Experiencia en el desarrollo de competencias investigativas en estudiantes de pregrado y postgrado a través de cursos de Metodología de la Investigación, Proyecto de Grado I y Proyecto de Grado. He dirigido trabajos de grado y orientado pasantías en investigación.
 
 Experto para impartir talleres y conferencias sobre análisis, interpretación y comprensión de textos, utilizando los niveles de lectura (literal, intratextual, intertextual, crítico contextual). Experiencia en proponer y desarrollar módulos o cursos sobre Escritura Académica.
 
