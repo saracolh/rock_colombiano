@@ -10,6 +10,8 @@ sub-heading: Colección archivo personal Rafael Ayala Sáenz
 padding: 6em
 ---
 
+{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+
 ## Acerca de la colección
 
 **Artefactus del Saber: Donde la Techné, Episteme y Didaxis Tejen el Conocimiento**
