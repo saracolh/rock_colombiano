@@ -30,22 +30,24 @@ Este sitio es una invitación a explorar y construir conocimiento, donde la *did
 
 ## Acerca de Rafael Ayala Sáenz
 
-Profesional con más de 30 años de trayectoria en la Educación Superior, destacando en las funciones sustantivas de docencia, investigación y proyección social en reconocidas universidades públicas y privadas de Bogotá, D.C.
+Profesional con **más de 30 años de trayectoria en la Educación Superior**, destacando en las funciones sustantivas de **docencia, investigación y proyección social** en reconocidas universidades públicas y privadas de Bogotá, D.C.
 
-Didacta en Semiótica, Lingüística y Pedagogía, con un enfoque aplicado a la descripción y explicación del proceso de la comunicación. Especializado en el análisis, comprensión, apreciación e interpretación de diversos códigos (verbales y no verbales) y manifestaciones simbólicas tales como el idioma español, géneros literarios, semiótica de la imagen, semiótica audiovisual, semiología, historia de la humanidad, así como de diversas expresiones artísticas (pintura, urbanismo, escultura, arquitectura, música, danza, cine e historia del arte).
+Didacta en **Semiótica, Lingüística y Pedagogía**, con un enfoque aplicado a la descripción y explicación del proceso de la comunicación. Especializado en el análisis, comprensión, apreciación e interpretación de diversos **códigos (verbales y no verbales)** y **manifestaciones simbólicas** tales como el idioma español, géneros literarios, semiótica de la imagen, semiótica audiovisual, semiología, historia de la humanidad, así como de diversas expresiones artísticas (pintura, urbanismo, escultura, arquitectura, música, danza, cine e historia del arte).
 
-<img src="/assets/img/rafaelayala.png" alt="Rafael Ayala" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 10px;" />
+Amplia experiencia docente en **pregrado y posgrado**, en sistemas educativos formales, no formales, informales y de educación para el trabajo en Colombia. Dominio de las **modalidades presenciales, a distancia y virtuales**, en programas académicos como Comunicación Social y Periodismo, Mercadeo y Publicidad, Diseño Gráfico, Administración en Informática, Derecho, Psicología, Ingeniería de Sistemas, Licenciatura en Educación Básica (énfasis en Lengua Castellana e inglés), y programas de Salud y Seguridad en el Trabajo, Especialización de Docencia Universitaria y Maestría en Educación e Innovación.
 
-Amplia experiencia docente en pregrado y posgrado, en sistemas educativos formales, no formales, informales y de educación para el trabajo en Colombia. Dominio de las modalidades presenciales, a distancia y virtuales, en programas académicos como Comunicación Social y Periodismo, Mercadeo y Publicidad, Diseño Gráfico, Administración en Informática, Derecho, Psicología, Ingeniería de Sistemas, Licenciatura en Educación Básica (énfasis en Lengua Castellana e inglés), y programas de Salud y Seguridad en el Trabajo, Especialización de Docencia Universitaria y Maestría en Educación e Innovación.
+<img src="/assets/img/rafaelayala.png" alt="Rafael Ayala en LAUD 90.4 FM en Programa radial "Amantes del círculo polar", La U de Estéreo" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 10px;" />
 
-Como Formador de Formadores, ha capacitado a docentes de todos los niveles educativos (Preescolar, Básica, Media Vocacional, Pregrado y Postgrado) en aspectos Macro, Meso y Micro curriculares, abarcando Proyectos Educativos Institucionales, programas académicos y áreas del conocimiento. Para lo anterior se apoya en el enfoque centrado en los resultados de aprendizaje y la planeación interdisciplinar, así como en la evaluación educativa desde el enfoque por competencias y el Modelo Basado en Evidencias de las pruebas SABER.
+Como **Formador de Formadores**, ha capacitado a docentes de todos los niveles educativos (Preescolar, Básica, Media Vocacional, Pregrado y Postgrado) en aspectos **Macro, Meso y Micro curriculares**, abarcando Proyectos Educativos Institucionales, programas académicos y áreas del conocimiento. Para lo anterior se apoya en el enfoque centrado en los **resultados de aprendizaje y la planeación interdisciplinar**, así como en la **evaluación educativa desde el enfoque por competencias y el Modelo Basado en Evidencias** de las pruebas SABER.
+Destacada experiencia en el **liderazgo de la Gestión Curricular**, participando activamente en la propuesta, evaluación y ajuste de planes de estudios diseñados por competencias en los niveles Micro, Meso y Macro Curricular (pregrado, secundaria y primaria). Responsable de proponer **actualizaciones y cambios en planes de estudio** basados en competencias.
 
-Destacada experiencia en el liderazgo de la Gestión Curricular, participando activamente en la propuesta, evaluación y ajuste de planes de estudios diseñados por competencias en los niveles Micro, Meso y Macro Curricular (pregrado, secundaria y primaria). Responsable de proponer actualizaciones y cambios en planes de estudio basados en competencias.
-
-Experiencia en el desarrollo de competencias investigativas en estudiantes de pregrado y postgrado a través de cursos de Metodología de la Investigación, Proyecto de Grado I y Proyecto de Grado. He dirigido trabajos de grado y orientado pasantías en investigación.
+Experiencia en el **desarrollo de competencias investigativas** en estudiantes de pregrado y postgrado a través de cursos de Metodología de la Investigación, Proyecto de Grado I y Proyecto de Grado. He dirigido trabajos de grado y orientado pasantías en investigación.
 
 Experto para impartir talleres y conferencias sobre análisis, interpretación y comprensión de textos, utilizando los niveles de lectura (literal, intratextual, intertextual, crítico contextual). Experiencia en proponer y desarrollar módulos o cursos sobre Escritura Académica.
 
 Experiencia en la organización, preparación, redacción y presentación de ponencias, conferencias, cursos, talleres, guías, reseñas y monografías en los temas de su experticia que incluyen Semiótica, Lingüística, Sociología de la Comunicación, Teoría de la Comunicación, Teoría de la Información, Comunicación organizacional, Expresión Oral y Escrita, Literatura, Teoría Literaria, Historia del Arte, así como Pedagogía, Educación, Currículo, Didáctica y Evaluación. También en Comunicación política, Cultura política para el desarrollo de la Democracia.
+
+
+
 
 ---
