@@ -4,7 +4,8 @@ layout: about
 permalink: /about.html
 credits: false
 ---
-{% include feature/jumbotron.html image="/assets/img/art3.png" %}
+
+{% include feature/jumbotron.html objectid="/assets/img/art3.png" %}
 
 {% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Rafael Ayala" %}
 
