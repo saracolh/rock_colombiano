@@ -20,22 +20,22 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: "Artefactus del Saber: Donde la Techné, Episteme y Didaxis Tejen el Conocimiento"
+title: "Un viaje por la historia del rock en Colombia a través del análisis de prensa entre 1985 y 1995"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: "Colección Archivo Digital - Rafael Ayala Sáenz"
+tagline: "Colección de archivos de prensa"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "¡Bienvenido a Artefactus del Saber, el espacio digital donde la creación, la rigurosa información y el arte de enseñar se entrelazan como hilos en una trama vibrante!"
+description: "¡Bienvenidos a la colección digital que contiene información de documentos de prensa sobre la historia del rock colombiano"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: "Rafael Ayala Sáenz - Curaduría por Sara Colmenares."
+author: "Creación y curaduría por Sara Colmenares."
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: metadataml_a5
-feature-image: assets/img/art_rup.jpg
+metadata: metadata_rock
+feature-image: assets/img/1990-11-30_paisilimitado.jpg
 
 
 ##########
