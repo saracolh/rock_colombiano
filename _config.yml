@@ -36,8 +36,14 @@ author: "Creación y curaduría por Sara Colmenares."
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
+##########
+# COLLECTION SETTINGS
+#
 metadata: rockcolombiano_2025
 feature-image: assets/img/1988-09-11_bogotacapitalrock.jpg
+objects:
+  directory: objects
+
 
 
 ##########
