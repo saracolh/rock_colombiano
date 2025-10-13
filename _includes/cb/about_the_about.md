@@ -28,7 +28,7 @@ The template provides includes to pull your collection objects and metadata into
 
 #### Include an Image
 
-- Image --> `{% raw %}{% include feature/image.html objectid="demo_001" width="75" %}{% endraw %}`
+- Image --> `{% raw %}{% include feature/image.html objectid="1988-09-13_queremosrock" width="75" %}{% endraw %}`
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
