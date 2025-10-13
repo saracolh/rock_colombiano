@@ -14,6 +14,8 @@
 # on GitHub Pages it is your github repository's name prefixed with a /
 #baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
+url: "https://saracolh.github.io"
+baseurl: "/rock_colombiano"
 source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 
 ##########
@@ -22,7 +24,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: "Un viaje por la historia del rock en Colombia a través del análisis de prensa entre 1985 y 1995"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: "Colección de archivos de prensa sobre la historial del rock colombiano"
+tagline: "Colección de archivos de prensa sobre la historia del rock colombiano"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "¡Bienvenidos a la colección digital que contiene información de documentos de prensa sobre la historia del rock colombiano..."
