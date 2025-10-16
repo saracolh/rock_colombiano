@@ -39,11 +39,8 @@ author: "Creación y curaduría por Sara Colmenares."
 ##########
 # COLLECTION SETTINGS
 #
-metadata: rockcolombiano_20251
+metadata: rockcolombiano_2025
 feature-image: assets/img/1988-09-11_bogotacapitalrock.jpg
-objects:
-  directory: objects
-
 
 
 ##########
