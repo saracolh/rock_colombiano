@@ -24,7 +24,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: "Un viaje por la historia del rock en Colombia a través del análisis de prensa entre 1985 y 1995"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: "Colección de archivos de prensa sobre la historia del rock colombiano"
+tagline: "Una exploración de datos en la colección de archivos de prensa sobre la historia del rock colombiano"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "¡Bienvenidos a la colección digital que contiene información de documentos de prensa sobre la historia del rock colombiano..."
@@ -70,3 +70,43 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
+
+##########
+# METADATA DISPLAY AND FACETS
+##########
+
+metadata_display_fields:
+  - field: creator
+    label: Autor
+  - field: date
+    label: Fecha
+  - field: genre
+    label: Género periodístico
+  - field: description
+    label: Descripción
+  - field: subject
+    label: Temas
+  - field: type
+    label: Tipo de documento
+  - field: format
+    label: Formato
+  - field: source
+    label: Fuente
+  - field: rights
+    label: Derechos
+  - field: language
+    label: Idioma
+  - field: location
+    label: Lugar
+
+metadata_facet_fields:
+  - field: subject
+    label: Temas
+  - field: type
+    label: Tipo de documento
+  - field: genre
+    label: Género periodístico
+  - field: date
+    label: Fecha
+  - field: creator
+    label: Autor
