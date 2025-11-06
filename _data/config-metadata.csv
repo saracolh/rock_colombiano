@@ -8,5 +8,5 @@ subject,Temas,true
 genre, Género,,
 location,Ubicación,,
 source,Fuente,, 
-object_location,Enlace,true
+object_location,Enlace,,
 

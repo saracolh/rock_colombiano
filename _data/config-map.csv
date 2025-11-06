@@ -2,4 +2,4 @@ field,display_name,search
 date,Fecha,true
 creator,Creador/a,true
 subject,Temas,true
-location,Localización,true
+location,Ubicación,true
