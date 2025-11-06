@@ -22,8 +22,6 @@ La siguiente nube de palabras fue generada con Voyant Tools a partir del corpus 
 </iframe>
 
 
-
-
 ---
 ## Orange Data Mining
 
