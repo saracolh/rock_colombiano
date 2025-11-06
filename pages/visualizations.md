@@ -13,7 +13,7 @@ Este espacio reúne visualizaciones del análisis del corpus de prensa sobre el 
 Despliega cada bloque para ver los resultados por herramienta.
 
 ## Voyant Tools
-
+##### Nube de palabras 
 La siguiente nube de palabras fue generada a partir del corpus completo de prensa, eliminado las palabras vacías o *stopwords" de los documentos. En esta se observa un panórama general de las palabras más frecuentes de los artículos que componen está colección.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
@@ -23,6 +23,15 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
   </iframe>
 </div>
 
+##### Relación entidades detectadas por Voyant Tools
+
+<div class="d-flex justify-content-center my-4">
+  <iframe
+    style="width: 80%; height: 800px; border: none;"
+    src="https://voyant-tools.org/?view=RezoViz&corpus=f73299667c2b5f97a41c069787e019f2"
+    loading="lazy">
+  </iframe>
+</div>
 
 
 ---
