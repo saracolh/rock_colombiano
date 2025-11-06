@@ -1,5 +1,5 @@
 ---
-title: Artefactus del Saber
+title: Rock Colombia
 layout: about
 permalink: /about.html
 credits: false

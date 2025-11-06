@@ -5,7 +5,8 @@ author,Autor,,
 display_date,Fecha,,
 description,Descripción,,
 subject,Temas,true
-location,Localización,,
+genre, Género,,
+location,Ubicación,,
 source,Fuente,, 
 object_location,Enlace,true
 
