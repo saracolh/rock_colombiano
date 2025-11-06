@@ -33,6 +33,15 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
   </iframe>
 </div>
 
+<div class="d-flex justify-content-center my-4">
+  <iframe
+    style="width: 80%; height: 800px; border: none;"
+    src="https://voyant-tools.org/tool/Documents/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&corpus=f99f79bd376cc31cd7a87bb6281a3c1a"
+    loading="lazy">
+  </iframe>
+</div>
+
+
 
 ---
 ## Orange Data Mining
