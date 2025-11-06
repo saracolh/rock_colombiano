@@ -16,10 +16,13 @@ Despliega cada bloque para ver los resultados por herramienta.
 
 La siguiente nube de palabras fue generada a partir del corpus completo de prensa, eliminado las palabras vacías o *stopwords" de los documentos. En esta se observa un panórama general de las palabras más frecuentes de los artículos que componen está colección.
 
-<iframe 
-  style="width: 80%; height: 400px;" 
-  src="https://voyant-tools.org/tool/Cirrus/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&whiteList=&visible=200&corpus=f99f79bd376cc31cd7a87bb6281a3c1a">
-</iframe>
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe 
+    style="width: 80%; height: 400px; border: none;" 
+    src="https://voyant-tools.org/tool/Cirrus/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&whiteList=&visible=200&corpus=f99f79bd376cc31cd7a87bb6281a3c1a">
+  </iframe>
+</div>
+
 
 
 ---
