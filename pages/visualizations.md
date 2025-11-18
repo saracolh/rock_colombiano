@@ -23,9 +23,7 @@ Esta gráfica muestra el número de artículos por periódico incluidos en el co
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/distribucion_publicaciones_donut.html"
-    width="100%"
-    height="auto"
-    style="border:none;">
+    style="width: 100%; max-width: 900px; height: 500px; border: none;">
   </iframe>
 </div>
 
