@@ -36,7 +36,7 @@ La siguiente gráfica cruza los géneros periodísticos con las décadas incluid
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
-    src="/assets/html/heatmap_generos_periodicos.html"
+    src="{{ site.baseurl }}/assets/html/distribucion_publicaciones_donut.html"
     width="85%"
     height="650"
     style="border: none;">
