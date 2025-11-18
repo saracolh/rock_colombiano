@@ -16,27 +16,32 @@ En primer lugar, se presentan visualizaciones generales construidas en Python, q
 
 Las visualizaciones generales fueron elaboradas en Google Colab con Python a partir del archivo CSV final que reúne todos los documentos de esta colección. Su objetivo es ofrecer una panorámica de la distribución de las publicaciones por periódico, género periodístico y década, antes de profundizar en el análisis textual con las demás herramientas.
 
-##### a. Cantidad de publicaciones por periódico
+##### Cantidad de publicaciones por periódico
 
 Esta gráfica muestra el número de artículos por periódico incluidos en el corpus. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para entender desde qué voces institucionales se construyó el relato mediático.
 
-<iframe 
-  src="/assets/html/distribucion_publicaciones_donut.html"
-  width="85%"
-  height="600"
-  style="border: none;">
-</iframe>
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe 
+    src="/assets/html/distribucion_publicaciones_donut.html"
+    width="85%"
+    height="600"
+    style="border:none;">
+  </iframe>
+</div>
 
 
-
-##### b. Cantidad de publicaciones por género periodístico
-
-La siguiente gráfica cruza los géneros periodísticos con las décadas incluidas en el corpus. Este cruce permite reconocer variaciones en el modo de representar el rock a lo largo del tiempo, así como posibles cambios en el peso relativo de cada género (por ejemplo, un aumento de reseñas o crónicas en determinados momentos), lo que aporta indicios sobre la evolución de la cobertura mediática.
-
-
-##### C. 
+##### Cantidad de publicaciones por género periodístico
 
 La siguiente gráfica cruza los géneros periodísticos con las décadas incluidas en el corpus. Este cruce permite reconocer variaciones en el modo de representar el rock a lo largo del tiempo, así como posibles cambios en el peso relativo de cada género (por ejemplo, un aumento de reseñas o crónicas en determinados momentos), lo que aporta indicios sobre la evolución de la cobertura mediática.
+
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe 
+    src="/assets/html/heatmap_generos_periodicos.html"
+    width="85%"
+    height="650"
+    style="border: none;">
+  </iframe>
+
 
 
 
