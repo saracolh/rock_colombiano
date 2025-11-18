@@ -46,6 +46,16 @@ Las visualizaciones generales fueron elaboradas en Google Colab con Python a par
 
       La siguiente gráfica cruza los géneros periodísticos con las décadas representadas en los documentos de esta colección. La categorización de géneros fue establecida específicamente para este proyecto con el fin de organizar los tipos de textos presentes y facilitar su comparación temporal. Esta clasificación permite identificar variaciones en la manera en que se abordó el rock a lo largo del tiempo y observar cambios en el peso relativo de cada género dentro de la cobertura mediática.
 
+            <div style="display: flex; justify-content: center; margin: 2rem 0;">
+    <iframe 
+      src="{{ site.baseurl }}/assets/html/barras_apiladas_decadas.html"
+      width="85%"
+      height="650"
+      style="border: none;">
+    </iframe>
+  </div>
+
+
 
 
 
