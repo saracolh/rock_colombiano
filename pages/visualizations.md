@@ -23,8 +23,8 @@ Esta gráfica muestra el número de artículos por periódico incluidos en el co
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/distribucion_publicaciones_donut.html"
-    width="50%"
-    height="400"
+    width="100%"
+    height="auto"
     style="border:none;">
   </iframe>
 </div>
@@ -36,8 +36,8 @@ La siguiente gráfica cruza los géneros periodísticos con los periódicos repr
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/heatmap_generos_periodicos.html"
-    width="50%"
-    height="400"
+    width="100%"
+    height="auto"
     style="border: none;">
   </iframe>
 </div>
@@ -49,8 +49,8 @@ La siguiente gráfica cruza los géneros periodísticos con las décadas represe
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/barras_apiladas_decadas.html"
-    width="50%"
-    height="400"
+    width="100%"
+    height="auto"
     style="border: none;">
   </iframe>
 </div>
