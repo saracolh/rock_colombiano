@@ -10,13 +10,13 @@ permalink: /visualizations.html
 
 Este espacio reúne las principales visualizaciones realizadas a partir del corpus de prensa sobre el rock en Colombia (1985–1995). Las gráficas permiten observar, desde diferentes niveles de detalle, cómo se organiza el conjunto documental y cuáles son algunos de los patrones discursivos identificados durante el análisis.
 
-En primer lugar, se presentan visualizaciones generales construidas en Python, que describen la composición del corpus de está colección, es decir, 229 artículos de prensa de los periódicos *El Tiempo, La Prensa, El Espectador, El Mundo, El Nuevo Siglo* y *Revista Semana*. 
+En primer lugar, se presentan las visualizaciones generales —elaboradas en Google Colab con Python— a partir del archivo CSV final que reúne todos los documentos de esta colección; es decir, 229 artículos de prensa de los periódicos *El Tiempo, La Prensa, El Espectador, El Mundo, El Nuevo Siglo* y *Revista Semana*. Su objetivo es ofrecer una panorámica de la distribución de las publicaciones por periódico, género periodístico y década, antes de profundizar en el análisis textual con las demás herramientas. 
 
- A continuación, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Para el análisis exploratorio de datos, se usaron 210 de archivos de texto los cuales obedecen a 210 artículos de la presente colección a expeción... Estos artículos no se tuvieron en cuenta en el análisis porque no fue posible extraer completamente el texto por medio del reconocimiento óptico de carácteres (OCR)
+Luego, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Cabe precisar que, para el análisis exploratorio de datos, se usaron 210 artículos de la presente colección a expeción... Estos artículos no se tuvieron en cuenta en el análisis porque no fue posible extraer completamente el texto por medio del reconocimiento óptico de carácteres (OCR)
 
 ## Visualizaciones generales
 
-Las visualizaciones generales fueron elaboradas en Google Colab con Python a partir del archivo CSV final que reúne todos los documentos de esta colección. Su objetivo es ofrecer una panorámica de la distribución de las publicaciones por periódico, género periodístico y década, antes de profundizar en el análisis textual con las demás herramientas.
+
 
 ##### a. Cantidad de publicaciones por periódico
 
