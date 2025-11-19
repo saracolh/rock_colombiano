@@ -12,7 +12,7 @@ Este espacio reúne las principales visualizaciones realizadas a partir del corp
 
 En primer lugar, se presentan visualizaciones generales construidas en Python, que describen la composición del corpus de está colección, es decir, 229 artículos de prensa de los periódicos *El Tiempo, La Prensa, El Espectador, El Mundo, El Nuevo Siglo* y *Revista Semana*. 
 
- A continuación, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Para el análisis exploratorio de datos, se usaron 210 de archivos de texto exp
+ A continuación, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Para el análisis exploratorio de datos, se usaron 210 de archivos de texto los cuales obedecen a 210 artículos de la presente colección a expeción... Estos artículos no se tuvieron en cuenta en el análisis porque no fue posible extraer completamente el texto por medio del reconocimiento óptico de carácteres (OCR)
 
 ## Visualizaciones generales
 

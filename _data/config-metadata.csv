@@ -8,6 +8,6 @@ subject,Temas,true
 genre, Género,,
 location,Ubicación,,
 source,Fuente,,
-Rights,Derechos,,
+rights,Derechos de Autor,,
 object_location,Enlace,true,true
 
