@@ -11,13 +11,17 @@ credits: false
 
 ## Acerca de la Colección
 
-“Un viaje por la historia del rock en Colombia (1985–1995)” es una colección digital que explora cómo la prensa colombiana narró el desarrollo del rock nacional durante una década clave de transformación cultural. A partir de la recuperación y análisis de artículos publicados en medios como El Tiempo, El Espectador, La Prensa, El Colombiano, El Siglo y Revista Semana, esta colección examina las representaciones mediáticas del rock como fenómeno musical, social y juvenil en ciudades como Bogotá y Medellín.
+*Un viaje por la historia del rock en Colombia (1985–1995)* es una colección digital a partir de la búsqueda, recuperación, curaduría y análisis de artículos publicados en medios como *El Tiempo, El Espectador, La Prensa, El Colombiano, El Siglo* y *Revista Semana*. 
 
-El proyecto forma parte de mi investigación en la Maestría en Humanidades Digitales, donde combino métodos tradicionales de análisis histórico, curaduría y organización con herramientas computacionales. A través de técnicas de procesamiento de texto, visualizaciones interactivas y estructuras de metadatos, se identifican patrones narrativos, actores, eventos y categorías temáticas que dan cuenta del papel de la prensa en la configuración de los imaginarios sobre el rock colombiano.
+Este proyecto de investigación se desarrolló a partir de la búsqueda, organización y curaduría de artículos de prensa sobre la historia del rock en Colombia publicados entre 1985 y 1995. Desde un enfoque de las Humanidades Digitales, se implementó una metodología dividida en tres fases complementarias. La primera correspondió a la conformación del corpus documental mediante la localización, registro y procesamiento de los artículos seleccionados. En la segunda, se llevó a cabo la estructuración y el análisis exploratorio de los datos y metadatos, empleando herramientas de minería textual y modelado de información. Finalmente, la tercera fase consistió en la construcción de la presente colección digital concebida como un espacio de preservación, consulta y visualización de los resultados obtenidos. Esta colección no solo cumple una función de archivo y curaduría, sino también promover el acceso abierto y nuevas formas de lectura de los archivos de prensa.
+
+El proyecto forma parte de la investigación producto de la Maestría en Humanidades Digitales de la Universidad de los Andes, realizado en el segundo semestre del 2025. 
 
 Los materiales aquí descritos incluyen referencias hemerográficas y fragmentos bajo derecho de cita con fines académicos. La colección busca facilitar el acceso público a fuentes dispersas y contribuir a la memoria cultural e histórica del país, promoviendo nuevas formas de investigación y divulgación sobre la historia del rock en Colombia. 
 
 El archivo *.CSV* con sus metadatos, fragmentos citables y resultados analíticos como las visualizaciones se publican de manera abierta. De este modo, la investigación respeta la legislación vigente sobre propiedad intelectual y adopta un enfoque ético de preservación y uso académico del patrimonio documental.
+
+
 
 ---
 
