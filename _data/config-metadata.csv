@@ -7,6 +7,7 @@ description,Descripción,,
 subject,Temas,true
 genre, Género,,
 location,Ubicación,,
-source,Fuente,, 
-object_location,Enlace,,
+source,Fuente,,
+Rights,Derechos,,
+object_location,Enlace,true,true
 

@@ -15,7 +15,9 @@ credits: false
 
 El proyecto forma parte de mi investigación en la Maestría en Humanidades Digitales, donde combino métodos tradicionales de análisis histórico, curaduría y organización con herramientas computacionales. A través de técnicas de procesamiento de texto, visualizaciones interactivas y estructuras de metadatos, se identifican patrones narrativos, actores, eventos y categorías temáticas que dan cuenta del papel de la prensa en la configuración de los imaginarios sobre el rock colombiano.
 
-Los materiales aquí descritos incluyen referencias hemerográficas y fragmentos bajo derecho de cita con fines académicos. La colección busca facilitar el acceso público a fuentes dispersas y contribuir a la memoria cultural del país, promoviendo nuevas formas de investigación y divulgación sobre la historia del rock en Colombia.
+Los materiales aquí descritos incluyen referencias hemerográficas y fragmentos bajo derecho de cita con fines académicos. La colección busca facilitar el acceso público a fuentes dispersas y contribuir a la memoria cultural e histórica del país, promoviendo nuevas formas de investigación y divulgación sobre la historia del rock en Colombia. 
+
+El archivo *.CSV* con sus metadatos, fragmentos citables y resultados analíticos como las visualizaciones se publican de manera abierta. De este modo, la investigación respeta la legislación vigente sobre propiedad intelectual y adopta un enfoque ético de preservación y uso académico del patrimonio documental.
 
 ---
 

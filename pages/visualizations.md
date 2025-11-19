@@ -10,7 +10,9 @@ permalink: /visualizations.html
 
 Este espacio reúne las principales visualizaciones realizadas a partir del corpus de prensa sobre el rock en Colombia (1985–1995). Las gráficas permiten observar, desde diferentes niveles de detalle, cómo se organiza el conjunto documental y cuáles son algunos de los patrones discursivos identificados durante el análisis.
 
-En primer lugar, se presentan visualizaciones generales construidas en Python, que describen la composición del corpus. A continuación, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico.
+En primer lugar, se presentan visualizaciones generales construidas en Python, que describen la composición del corpus de está colección, es decir, 229 artículos de prensa de los periódicos *El Tiempo, La Prensa, El Espectador, El Mundo, El Nuevo Siglo* y *Revista Semana*. 
+
+ A continuación, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Para el análisis exploratorio de datos, se usaron 210 de archivos de texto exp
 
 ## Visualizaciones generales
 
