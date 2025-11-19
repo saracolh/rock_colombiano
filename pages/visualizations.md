@@ -20,10 +20,10 @@ Las visualizaciones generales fueron elaboradas en Google Colab con Python a par
 
 Esta gráfica muestra el número de artículos por periódico incluidos en el corpus. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para entender desde qué voces institucionales se construyó el relato mediático.
 
-<div style="display: flex; justify-content: center; margin: 2rem 0;">
+<div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/distribucion_publicaciones_donut.html"
-    style="width: 100%; max-width: 1100px; height: 650px; border: none;">
+    style="width: 100%; max-width: 1100px; height: 650px; border: none; margin: 0 auto; display: block;">
   </iframe>
 </div>
 
@@ -31,10 +31,10 @@ Esta gráfica muestra el número de artículos por periódico incluidos en el co
 
 La siguiente gráfica cruza los géneros periodísticos con los periódicos representados en los documentos de esta colección. Este cruce permite reconocer variaciones en la forma en que cada medio abordó el rock, así como posibles diferencias en el peso relativo de cada género, lo que aporta indicios sobre la diversidad de la cobertura mediática.
 
-<div style="display: flex; justify-content: center; margin: 2rem 0;">
+<div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/heatmap_generos_periodicos.html"
-    style="width: 100%; max-width: 1100px; height: 650px; border: none;">
+    style="width: 100%; max-width: 1100px; height: 650px; border: none; margin: 0 auto; display: block;">
   </iframe>
 </div>
 
@@ -42,10 +42,10 @@ La siguiente gráfica cruza los géneros periodísticos con los periódicos repr
 
 La siguiente gráfica cruza los géneros periodísticos con las décadas representadas en los documentos de esta colección. La categorización de géneros fue establecida específicamente para este proyecto con el fin de organizar los tipos de textos presentes y facilitar su comparación temporal. Esta clasificación permite identificar variaciones en la manera en que se abordó el rock a lo largo del tiempo y observar cambios en el peso relativo de cada género dentro de la cobertura mediática.
 
-<div style="display: flex; justify-content: center; margin: 2rem 0;">
+<div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
     src="{{ site.baseurl }}/assets/html/barras_apiladas_decadas.html"
-    style="width: 100%; max-width: 1100px; height: 650px; border: none;">
+    style="width: 100%; max-width: 1100px; height: 650px; border: none; margin: 0 auto; display: block;">
   </iframe>
 </div>
 
