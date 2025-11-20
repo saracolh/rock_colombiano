@@ -102,7 +102,7 @@ La visualización RezoViz muestra una red de entidades identificadas en el corpu
 
 <div class="d-flex justify-content-center my-4">
   <iframe
-    style="width: 80%; height: 800px; border: none;"
+    style=style="width: 1422px; height: 556px;"
     src="https://voyant-tools.org/?view=RezoViz&corpus=f73299667c2b5f97a41c069787e019f2"
     loading="lazy">
   </iframe>
