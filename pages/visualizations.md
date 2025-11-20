@@ -97,12 +97,12 @@ La visualización *Terms* presenta un listado de las palabras más frecuentes de
 
 ##### Relación entidades detectadas por Voyant Tools
 
-La visualización RezoViz muestra una red de entidades identificadas en el corpus, como nombres propios, lugares y organizaciones. Cada nodo representa una entidad y las líneas señalan las veces en que aparecen juntas dentro de los textos. Aunque Voyant Tools no detectó la totalidad de las entidades presentes en los artículos, esta vista complementa las aproximaciones léxicas anteriores y ofrece una visión general de las conexiones entre entidades que se dan a lo largo del corpus.
+La visualización *RezoViz* muestra una red de entidades identificadas en el corpus, como nombres propios, lugares y organizaciones. Cada nodo representa una entidad y las líneas señalan las veces en que aparecen juntas dentro de los textos. Aunque *Voyant Tools* no detectó la totalidad de las entidades presentes en los artículos, esta vista complementa las aproximaciones léxicas anteriores y ofrece una visión general de las conexiones entre entidades que se dan a lo largo del corpus.
 
 
 <div class="d-flex justify-content-center my-4">
   <iframe
-    style=style="width: 1422px; height: 556px;"
+    style="width: 1422px; height: 556px;"
     src="https://voyant-tools.org/?view=RezoViz&corpus=f73299667c2b5f97a41c069787e019f2"
     loading="lazy">
   </iframe>
