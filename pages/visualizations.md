@@ -66,7 +66,7 @@ La visualización *Cirrus* muestra las palabras más frecuentes del corpus media
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
-    style="width: 471px; height: 291px;" 
+    style="width: 1422px; height: 556px;" 
     src="https://voyant-tools.org/tool/Cirrus/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&whiteList=&corpus=5ea6f2777dc0845027a440049ea659d6">
   </iframe>
 </div>
