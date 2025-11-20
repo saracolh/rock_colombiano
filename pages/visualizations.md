@@ -55,7 +55,7 @@ Esta gráfica muestra cómo se distribuyen los géneros periodísticos por déca
 ## Voyant Tools
 La primera aproximación al análisis textual se realizó con Voyant Tools, que permite examinar el vocabulario dominante, las tendencias y la estructura general del corpus. Esta herramienta facilita una lectura global del conjunto de textos y ofrece una visión inicial sobre los temas, términos recurrentes y variaciones léxicas presentes en los artículos.
 #### Resumen del Corpus
-El corpus analizado está compuesto por 210 artículos que suman 133.075 palabras y 15.694 formas léxicas únicas. Este resumen incluye medidas textuales como la longitud de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad. También ofrece un primer vistazo a las palabras con mayor frecuencia, entre las que destacan *rock, grupo, música, concierto* y *grupos*.
+El corpus analizado está compuesto por 210 artículos que suman 132.899 palabras y 15.668 formas léxicas únicas. Este resumen incluye medidas textuales como la longitud de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad. También ofrece un primer vistazo a las palabras con mayor frecuencia, entre las que destacan *rock, grupo, música, concierto* y *grupos*.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
@@ -69,8 +69,8 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
-    style="width: 80%; height: 400px; border: none;" 
-    src="https://voyant-tools.org/tool/Cirrus/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&whiteList=&visible=200&corpus=f99f79bd376cc31cd7a87bb6281a3c1a">
+    style="width: 471px; height: 291px;" 
+    src="https://voyant-tools.org/tool/Cirrus/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&whiteList=&corpus=5ea6f2777dc0845027a440049ea659d6">
   </iframe>
 </div>
 
@@ -88,7 +88,7 @@ Esta visualización complementa la nube de palabras, ya que, aunque ambas muestr
 
 ##### Términos frecuentes 
 
-La visualización Terms presenta un listado ordenado por frecuencia de los términos del corpus e incorpora la gráfica Trend, que muestra la variación de cada palabra a lo largo del conjunto de documentos. Esto permite identificar momentos de mayor o menor presencia de términos como rock, grupo o música, ofreciendo una lectura temporal que complementa tanto la nube de palabras como TermsBerry. 
+La visualización T*erms* presenta un listado ordenado por frecuencia de los términos del corpus e incorpora la gráfica *Trend*, que muestra la variación de cada palabra a lo largo del conjunto de documentos. Esto permite identificar momentos de mayor o menor presencia de términos como rock, grupo o música, ofreciendo una lectura temporal que complementa tanto la nube de palabras como TermsBerry. 
 
 <div class="d-flex justify-content-center my-4">
   <iframe
@@ -107,9 +107,6 @@ La visualización Terms presenta un listado ordenado por frecuencia de los térm
     loading="lazy">
   </iframe>
 </div>
-
-
-
 
 ---
 ## Orange Data Mining
