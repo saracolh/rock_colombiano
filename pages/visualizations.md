@@ -18,7 +18,7 @@ Posteriormente, se presentan los resultados obtenidos con herramientas como *Voy
 
 ##### a. Cantidad de publicaciones por periódico
 
-Esta visualización muestra el número de artículos por periódico incluidos en la colección. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para entender qué voces institucionales participaron en la construcción de la cobertura periodística sobre el rock colombiano en la prensa escrita.
+Esta visualización muestra el número de artículos por periódico incluidos en la colección. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para comprender qué voces institucionales intervinieron en la construcción del discurso periodístico de la época.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -29,7 +29,9 @@ Esta visualización muestra el número de artículos por periódico incluidos en
 
 ##### b. Cantidad de publicaciones por género periodístico
 
-La siguiente gráfica cruza los géneros periodísticos con los periódicos representados en los documentos de esta colección. Este cruce permite reconocer variaciones en la forma en que cada medio abordó el rock, así como posibles diferencias en el peso relativo de cada género, lo que aporta indicios sobre la diversidad de la cobertura mediática.
+La siguiente gráfica presenta la distribución de los géneros periodísticos en los documentos de esta colección. Este cruce permite reconocer variaciones en la forma en que cada medio abordó el rock, así como diferencias en el peso relativo de cada género, lo que ofrece indicios sobre la diversidad de la cobertura mediática.
+
+La categorización de géneros fue definida específicamente para este proyecto como una forma de organizar el corpus durante el análisis exploratorio. Aunque es una propuesta propia, ofrece un marco de referencia que permite identificar posibles variaciones en las estrategias de representación a lo largo de la década y aproximarse al papel que cada género pudo ocupar dentro del discurso periodístico.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -40,7 +42,7 @@ La siguiente gráfica cruza los géneros periodísticos con los periódicos repr
 
 ##### c. Distribución de géneros por década
 
-La siguiente gráfica cruza los géneros periodísticos con las décadas representadas en los documentos de esta colección. La categorización de géneros fue establecida específicamente para este proyecto con el fin de organizar los tipos de textos presentes y facilitar su comparación temporal. Esta clasificación permite identificar variaciones en la manera en que se abordó el rock a lo largo del tiempo y observar cambios en el peso relativo de cada género dentro de la cobertura mediática.
+Esta gráfica muestra cómo se distribuyen los géneros periodísticos por década y permite identificar cambios en el tipo de textos publicados sobre el rock colombiano en cada periodo.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -51,11 +53,18 @@ La siguiente gráfica cruza los géneros periodísticos con las décadas represe
 
 
 ## Voyant Tools
-
+La primera aproximación al análisis textual se realizó con Voyant Tools, que permite examinar el vocabulario dominante, las tendencias y la estructura general del corpus. Esta herramienta facilita una lectura global del conjunto de textos y ofrece una visión inicial sobre los temas, términos recurrentes y variaciones léxicas presentes en los artículos.
 #### Resumen del Corpus
+El corpus analizado está compuesto por 210 artículos que suman 133.075 palabras y 15.694 formas léxicas únicas. Este resumen incluye medidas textuales como la longitud de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad. También ofrece un primer vistazo a las palabras con mayor frecuencia, entre las que destacan *rock, grupo, música, concierto* y *grupos*.
 
-En primer lugar, se muestra el resumen general del corpus de 210 artículos los cuales sumaron 133.075 palabras distribuidas en 15.694 formas léxicas únicas. Así mismo, se pueden observar las medidas textuales relevantes, como la longitud relativa de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad de los textos. Se puede identificar las palabras más frecuentes del corpus entre las cuales destacan *rock, grupo, música, concierto* y *grupos*.
-##### Nube de palabras 
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe 
+    style="width: 1422px; height: 556px;" 
+    src="https://voyant-tools.org/tool/Summary/?view=Summary&stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&limit=20&corpus=5ea6f2777dc0845027a440049ea659d6">
+  </iframe>
+</div>
+
+#### Nube de palabras 
 La siguiente nube de palabras fue generada a partir del corpus completo de prensa, eliminado las palabras vacías o *stopwords" de los documentos. En esta se observa un panórama general de las palabras más frecuentes de los artículos que componen está colección.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
@@ -65,11 +74,30 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
   </iframe>
 </div>
 
+#### Racimo de términos 
+
+Esta visualización complementa la nube de palabras, ya que, aunque ambas muestran la frecuencia total de los términos, TermsBerry añade información sobre la cantidad de documentos en los que aparece cada palabra. Esto permite entender no solo qué términos son más frecuentes, sino también cuán extendidos están a lo largo del corpus.
+
+<div class="d-flex justify-content-center my-4">
+  <iframe
+    style="width: 1422px; height: 556px;"
+    src="https://voyant-tools.org/tool/TermsBerry/?view=TermsBerry&stopList=keywords-30dd93a07c481aa6a70826f6d5cd4c78&corpus=5ea6f2777dc0845027a440049ea659d6"
+    loading="lazy">
+  </iframe>
+</div>
+
 ##### Términos frecuentes 
 
+La visualización Terms presenta un listado ordenado por frecuencia de los términos del corpus e incorpora la gráfica Trend, que muestra la variación de cada palabra a lo largo del conjunto de documentos. Esto permite identificar momentos de mayor o menor presencia de términos como rock, grupo o música, ofreciendo una lectura temporal que complementa tanto la nube de palabras como TermsBerry. 
 
+<div class="d-flex justify-content-center my-4">
+  <iframe
+    style="width: 1422px; height: 556px;"
+    src="https://voyant-tools.org/tool/CorpusTerms/?view=CorpusTerms&stopList=keywords-1a9921d84b8a086821313840dacd1f86&comparisonCorpus=&corpus=5ea6f2777dc0845027a440049ea659d6"
+    loading="lazy">
+  </iframe>
+</div>
 
-<iframe style='width: 1422px; height: 556px;' src='https://voyant-tools.org/tool/CorpusTerms/?view=CorpusTerms&stopList=keywords-1a9921d84b8a086821313840dacd1f86&comparisonCorpus=&corpus=5ea6f2777dc0845027a440049ea659d6'></iframe>
 ##### Relación entidades detectadas por Voyant Tools
 
 <div class="d-flex justify-content-center my-4">
