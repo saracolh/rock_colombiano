@@ -6,19 +6,16 @@ permalink: /visualizations.html
 ---
 {% include feature/nav-menu.html sections="Visualizaciones Generales;Voyant Tools;Orange Data Mining; AntConc" %}
 
-## ¿Qué visualizaciones contiene esta colección? 
+## ¿Qué visualizaciones contiene esta colección?
 
-Esta sección reúne las visualizaciones generadas a partir del corpus de prensa sobre el rock en Colombia entre 1985 y 1995.
+Esta sección reúne un conjunto de visualizaciones diseñadas para ofrecer una lectura general del corpus hemerográfico y de su organización interna. Las primeras gráficas presentan la distribución de los 229 artículos incluidos en la colección digital, permitiendo identificar tendencias por periódico, género periodístico y década. Adicionalmente, se incorporan algunos ejemplos de las visualizaciones generadas durante el exploratorio de datos realizado con herramientas de análisis textual. Estos análisis se basaron en 210 artículos procesados mediante OCR y ofrecen una muestra del trabajo computacional desarrollado en el proyecto. El análisis completo, así como la interpretación detallada de estos resultados, se encuentra en el documento escrito del trabajo de grado.
 
-En primer lugar, se presentan las visualizaciones generales elaboradas en Google Colab con Python, basadas en el archivo *CSV* que integra los 229 artículos de la colección. Estas gráficas ofrecen una lectura inicial sobre la distribución del corpus por periódico, género periodístico y año de publicación.
-
-Posteriormente, se presentan los resultados obtenidos con herramientas como *Voyant Tools, Orange Data Mining* y *AntConc*, organizados por herramienta para facilitar la consulta. Para esta etapa se trabajó con 210 artículos en formato .txt, generados mediante OCR, ya que algunos documentos fueron excluidos debido a errores en el reconocimiento óptico de caracteres que impidieron su procesamiento completo.
 
 ## Visualizaciones generales
 
 ##### a. Cantidad de publicaciones por periódico
 
-Esta visualización muestra el número de artículos por periódico incluidos en la colección. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para comprender qué voces institucionales intervinieron en la construcción del discurso periodístico de la época.
+Esta visualización presenta la proporción de artículos de prensa incluidos en la colección según su medio de origen. Permite observar cómo se distribuye el corpus entre los distintos periódicos consultados. Esta distribución ofrece una primera aproximación a la diversidad de fuentes que documentaron el desarrollo del rock colombiano entre 1985 y 1995.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -29,9 +26,9 @@ Esta visualización muestra el número de artículos por periódico incluidos en
 
 ##### b. Cantidad de publicaciones por género periodístico
 
-La siguiente gráfica presenta la distribución de los géneros periodísticos en los documentos de esta colección. Este cruce permite reconocer variaciones en la forma en que cada medio abordó el rock, así como diferencias en el peso relativo de cada género, lo que ofrece indicios sobre la diversidad de la cobertura mediática.
+Este mapa de calor muestra la relación entre los periódicos consultados y los géneros periodísticos identificados en cada artículo. La visualización permite observar cómo se distribuyen estas categorías en el corpus y ofrece un panorama general de los enfoques narrativos presentes en la colección.
 
-La categorización de géneros fue definida específicamente para este proyecto como una forma de organizar el corpus durante el análisis exploratorio. Aunque es una propuesta propia, ofrece un marco de referencia que permite identificar posibles variaciones en las estrategias de representación a lo largo de la década y aproximarse al papel que cada género pudo ocupar dentro del discurso periodístico.
+La categorización de géneros fue definida específicamente para este proyecto como una forma de organizar el corpus durante el análisis exploratorio. Aunque es una propuesta propia, proporciona un marco de referencia útil para reconocer variaciones en los tipos de contenido publicados a lo largo de la década.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -42,7 +39,7 @@ La categorización de géneros fue definida específicamente para este proyecto 
 
 ##### c. Distribución de géneros por década
 
-Esta gráfica muestra cómo se distribuyen los géneros periodísticos por década y permite identificar cambios en el tipo de textos publicados sobre el rock colombiano en cada periodo.
+Este gráfico compara la cantidad de artículos publicados en los años ochenta y noventa según su género periodístico. La visualización permite observar cómo se distribuyen estas categorías a lo largo del periodo analizado y ofrece un panorama temporal que facilita comprender la composición del corpus en ambas décadas.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -53,9 +50,9 @@ Esta gráfica muestra cómo se distribuyen los géneros periodísticos por déca
 
 
 ## Voyant Tools
-La primera aproximación al análisis textual se realizó con Voyant Tools, que permite examinar el vocabulario dominante, las tendencias y la estructura general del corpus. Esta herramienta facilita una lectura global del conjunto de textos y ofrece una visión inicial sobre los temas, términos recurrentes y variaciones léxicas presentes en los artículos.
+Voyant Tools fue la primera herramienta empleada para el análisis textual del corpus. Su interfaz permite explorar de manera general las palabras más frecuentes, las relaciones entre términos y la estructura global de los textos procesados. Las visualizaciones incluidas ofrecen una muestra de esta aproximación inicial y ejemplifican las posibilidades de lectura global que brinda la herramienta.
 #### Resumen del Corpus
-El corpus analizado está compuesto por 210 artículos que suman 132.899 palabras y 15.668 formas léxicas únicas. Este resumen incluye medidas textuales como la longitud de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad. También ofrece un primer vistazo a las palabras con mayor frecuencia, entre las que destacan *rock, grupo, música, concierto* y *grupos*.
+La vista Summary reúne varias métricas generales del corpus utilizado en el análisis textual, como la cantidad de documentos procesados, el total de palabras, el número de términos únicos y la longitud relativa de los textos. También incluye indicadores como la densidad de vocabulario, el promedio de palabras por oración y las palabras distintivas de cada documento. Estas medidas permiten obtener una visión preliminar de la composición y las características globales del corpus.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
@@ -65,7 +62,7 @@ El corpus analizado está compuesto por 210 artículos que suman 132.899 palabra
 </div>
 
 #### Nube de palabras 
-La siguiente nube de palabras fue generada a partir del corpus completo de prensa, eliminado las palabras vacías o *stopwords" de los documentos. En esta se observa un panórama general de las palabras más frecuentes de los artículos que componen está colección.
+La visualización *Cirrus* muestra las palabras más frecuentes del corpus mediante una representación proporcional a su recurrencia. Esta nube de términos permite identificar de manera rápida los conceptos que aparecen con mayor regularidad en los textos procesados y ofrece una lectura panorámica del vocabulario predominante en el corpus.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
@@ -76,7 +73,7 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
 
 #### Racimo de términos 
 
-Esta visualización complementa la nube de palabras, ya que, aunque ambas muestran la frecuencia total de los términos, TermsBerry añade información sobre la cantidad de documentos en los que aparece cada palabra. Esto permite entender no solo qué términos son más frecuentes, sino también cuán extendidos están a lo largo del corpus.
+La visualización *TermsBerry* presenta un conjunto de términos destacados del corpus mediante círculos cuyo tamaño está asociado a su frecuencia. A diferencia de la nube de palabras, esta vista permite identificar también la cantidad de documentos en los que aparece cada término al situar el cursor sobre ellos. Esta representación complementa la lectura global del vocabulario del corpus y facilita reconocer la dispersión de los términos a lo largo de los textos procesados.
 
 <div class="d-flex justify-content-center my-4">
   <iframe
@@ -88,7 +85,7 @@ Esta visualización complementa la nube de palabras, ya que, aunque ambas muestr
 
 ##### Términos frecuentes 
 
-La visualización T*erms* presenta un listado ordenado por frecuencia de los términos del corpus e incorpora la gráfica *Trend*, que muestra la variación de cada palabra a lo largo del conjunto de documentos. Esto permite identificar momentos de mayor o menor presencia de términos como rock, grupo o música, ofreciendo una lectura temporal que complementa tanto la nube de palabras como TermsBerry. 
+La visualización *Terms* presenta un listado de las palabras más frecuentes del corpus acompañado de su conteo exacto y de la gráfica "*Trend*", que muestra su comportamiento a lo largo de los textos. Esta vista complementa la información ofrecida por *Cirrus* y *TermsBerry*, ya que permite comparar la recurrencia de los términos con mayor precisión y observar su distribución dentro del corpus. Con ello, proporciona una lectura más detallada del vocabulario dominante.
 
 <div class="d-flex justify-content-center my-4">
   <iframe
@@ -100,6 +97,9 @@ La visualización T*erms* presenta un listado ordenado por frecuencia de los té
 
 ##### Relación entidades detectadas por Voyant Tools
 
+La visualización RezoViz muestra una red de entidades identificadas en el corpus, como nombres propios, lugares y organizaciones. Cada nodo representa una entidad y las líneas señalan las veces en que aparecen juntas dentro de los textos. Aunque Voyant Tools no detectó la totalidad de las entidades presentes en los artículos, esta vista complementa las aproximaciones léxicas anteriores y ofrece una visión general de las conexiones entre entidades que se dan a lo largo del corpus.
+
+
 <div class="d-flex justify-content-center my-4">
   <iframe
     style="width: 80%; height: 800px; border: none;"
@@ -107,6 +107,10 @@ La visualización T*erms* presenta un listado ordenado por frecuencia de los té
     loading="lazy">
   </iframe>
 </div>
+
+##### Contextos término *"Rock*
+
+La visualización *Contexts* muestra fragmentos del corpus en los que aparece la palabra *rock*, presentada en el centro de cada línea. Esta vista permite observar diferentes usos del término dentro de los artículos y añadir una capa de información contextual sobre su presencia en el corpus, complementando así las aproximaciones léxicas ofrecidas por las visualizaciones anteriores.
 
 ---
 ## Orange Data Mining
