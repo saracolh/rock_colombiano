@@ -4,9 +4,7 @@ layout: about
 permalink: /about.html
 credits: false
 ---
-
 {% include feature/jumbotron.html objectid="/assets/img/1988-09-18_bogotavibro.png" %}
-
 {% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Sara Colmenares" %}
 
 ## Acerca de la Colección
@@ -30,7 +28,6 @@ Los artículos originales pertenecen a sus respectivos medios y autores. La cole
 El archivo *.CSV* con metadatos, así como las visualizaciones y resultados derivados del análisis, se publican de manera abierta para su consulta, reutilización y verificación, siguiendo principios de ciencia abierta y buenas prácticas en Humanidades Digitales.
 
 ---
-
 ## Acerca de Sara Colmenares
 
 Soy Sara Colmenares Hernández, profesional en Ciencia de la Información, Bibliotecóloga y Archivista, y estudiante de la Maestría en Humanidades Digitales en la Universidad de los Andes. Mi experiencia se ha desarrollado en la organización, descripción y preservación de documentos y colecciones, así como en la gestión y análisis de datos en entornos digitales.

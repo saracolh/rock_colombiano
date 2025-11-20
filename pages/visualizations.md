@@ -8,19 +8,17 @@ permalink: /visualizations.html
 
 ## ¿Qué visualizaciones contiene esta colección? 
 
-Este espacio reúne las principales visualizaciones realizadas a partir del corpus de prensa sobre el rock en Colombia (1985–1995). Las gráficas permiten observar, desde diferentes niveles de detalle, cómo se organiza el conjunto documental y cuáles son algunos de los patrones discursivos identificados durante el análisis.
+Esta sección reúne las visualizaciones generadas a partir del corpus de prensa sobre el rock en Colombia entre 1985 y 1995.
 
-En primer lugar, se presentan las visualizaciones generales —elaboradas en Google Colab con Python— a partir del archivo CSV final que reúne todos los documentos de esta colección; es decir, 229 artículos de prensa de los periódicos *El Tiempo, La Prensa, El Espectador, El Mundo, El Nuevo Siglo* y *Revista Semana*. Su objetivo es ofrecer una panorámica de la distribución de las publicaciones por periódico, género periodístico y década, antes de profundizar en el análisis textual con las demás herramientas. 
+En primer lugar, se presentan las visualizaciones generales elaboradas en Google Colab con Python, basadas en el archivo *CSV* que integra los 229 artículos de la colección. Estas gráficas ofrecen una lectura inicial sobre la distribución del corpus por periódico, género periodístico y año de publicación.
 
-Luego, se incluyen los resultados obtenidos con *Voyant Tools*, *Orange Data Mining* y *AnTConC*, organizados por herramienta para facilitar la lectura del proceso metodológico. Cabe precisar que, para el análisis exploratorio de datos, se usaron 210 artículos de la presente colección a expeción... Estos artículos no se tuvieron en cuenta en el análisis porque no fue posible extraer completamente el texto por medio del reconocimiento óptico de carácteres (OCR)
+Posteriormente, se presentan los resultados obtenidos con herramientas como *Voyant Tools, Orange Data Mining* y *AntConc*, organizados por herramienta para facilitar la consulta. Para esta etapa se trabajó con 210 artículos en formato .txt, generados mediante OCR, ya que algunos documentos fueron excluidos debido a errores en el reconocimiento óptico de caracteres que impidieron su procesamiento completo.
 
 ## Visualizaciones generales
 
-
-
 ##### a. Cantidad de publicaciones por periódico
 
-Esta gráfica muestra el número de artículos por periódico incluidos en el corpus. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para entender desde qué voces institucionales se construyó el relato mediático.
+Esta visualización muestra el número de artículos por periódico incluidos en la colección. Permite identificar qué medios tuvieron una participación más activa en la cobertura del rock colombiano durante el periodo 1985–1995 y sirve como punto de partida para entender qué voces institucionales participaron en la construcción de la cobertura periodística sobre el rock colombiano en la prensa escrita.
 
 <div style="width: 100%; text-align: center; margin: 2rem 0;">
   <iframe 
@@ -53,6 +51,10 @@ La siguiente gráfica cruza los géneros periodísticos con las décadas represe
 
 
 ## Voyant Tools
+
+#### Resumen del Corpus
+
+En primer lugar, se muestra el resumen general del corpus de 210 artículos los cuales sumaron 133.075 palabras distribuidas en 15.694 formas léxicas únicas. Así mismo, se pueden observar las medidas textuales relevantes, como la longitud relativa de los documentos, la densidad de vocabulario, el promedio de palabras por oración y el índice de legibilidad de los textos. Se puede identificar las palabras más frecuentes del corpus entre las cuales destacan *rock, grupo, música, concierto* y *grupos*.
 ##### Nube de palabras 
 La siguiente nube de palabras fue generada a partir del corpus completo de prensa, eliminado las palabras vacías o *stopwords" de los documentos. En esta se observa un panórama general de las palabras más frecuentes de los artículos que componen está colección.
 
@@ -63,6 +65,11 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
   </iframe>
 </div>
 
+##### Términos frecuentes 
+
+
+
+<iframe style='width: 1422px; height: 556px;' src='https://voyant-tools.org/tool/CorpusTerms/?view=CorpusTerms&stopList=keywords-1a9921d84b8a086821313840dacd1f86&comparisonCorpus=&corpus=5ea6f2777dc0845027a440049ea659d6'></iframe>
 ##### Relación entidades detectadas por Voyant Tools
 
 <div class="d-flex justify-content-center my-4">
@@ -73,18 +80,13 @@ La siguiente nube de palabras fue generada a partir del corpus completo de prens
   </iframe>
 </div>
 
-<div class="d-flex justify-content-center my-4">
-  <iframe
-    style="width: 80%; height: 800px; border: none;"
-    src="https://voyant-tools.org/tool/Documents/?stopList=keywords-59c6c1c26b811ae678f38ca30ffb4c69&corpus=f99f79bd376cc31cd7a87bb6281a3c1a"
-    loading="lazy">
-  </iframe>
-</div>
 
 
 
 ---
 ## Orange Data Mining
+
+
 
 ---
 ## AntConc
