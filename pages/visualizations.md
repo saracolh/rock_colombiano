@@ -13,7 +13,7 @@ Esta sección reúne un conjunto de visualizaciones diseñadas para ofrecer una 
 
 ## Visualizaciones generales
 
-#### 1️⃣ Cantidad de publicaciones por periódico
+#### Cantidad de publicaciones por periódico
 
 Esta visualización presenta la proporción de artículos de prensa incluidos en la colección según su medio de origen. Permite observar cómo se distribuye el corpus entre los distintos periódicos consultados. Esta distribución ofrece una primera aproximación a la diversidad de fuentes que documentaron el desarrollo del rock colombiano entre 1985 y 1995.
 
@@ -50,7 +50,7 @@ Este gráfico compara la cantidad de artículos publicados en los años ochenta 
 
 
 ## Voyant Tools
-Voyant Tools fue la primera herramienta empleada para el análisis textual del corpus. Su interfaz permite explorar de manera general las palabras más frecuentes, las relaciones entre términos y la estructura global de los textos procesados. Las visualizaciones incluidas ofrecen una muestra de esta aproximación inicial y ejemplifican las posibilidades de lectura global que brinda la herramienta.
+*Voyant Tools* fue la primera herramienta empleada para el análisis textual del corpus. Su interfaz permite explorar de manera general las palabras más frecuentes, las relaciones entre términos y la estructura global de los textos procesados. Las visualizaciones incluidas ofrecen una muestra de esta aproximación inicial y ejemplifican las posibilidades de lectura global que brinda la herramienta.
 #### Resumen del Corpus
 La vista *Summary* reúne varias métricas generales del corpus utilizado en el análisis textual, como la cantidad de documentos procesados, el total de palabras, el número de términos únicos y la longitud relativa de los textos. También incluye indicadores como la densidad de vocabulario, el promedio de palabras por oración y las palabras distintivas de cada documento. Estas medidas permiten obtener una visión preliminar de la composición y las características globales del corpus.
 
@@ -114,7 +114,7 @@ La visualización *Contexts* muestra fragmentos del corpus en los que aparece la
 
 ---
 ## Orange Data Mining
-
+Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura global obtenida con Voyant Tools mediante tres aproximaciones diferentes: la identificación automática de palabras clave, la agrupación de artículos según su similitud lingüística y la evaluación del tono emocional del corpus. Juntas, estas vistas permiten apreciar aspectos más finos del discurso periodístico sobre el rock en Colombia y ofrecen una mirada comparativa entre relevancia léxica, organización temática y polaridad del lenguaje
 
 
 ---
