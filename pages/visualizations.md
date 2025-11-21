@@ -13,7 +13,7 @@ Esta sección reúne un conjunto de visualizaciones diseñadas para ofrecer una 
 
 ## Visualizaciones generales
 
-##### a. Cantidad de publicaciones por periódico
+##### Cantidad de publicaciones por periódico
 
 Esta visualización presenta la proporción de artículos de prensa incluidos en la colección según su medio de origen. Permite observar cómo se distribuye el corpus entre los distintos periódicos consultados. Esta distribución ofrece una primera aproximación a la diversidad de fuentes que documentaron el desarrollo del rock colombiano entre 1985 y 1995.
 
@@ -24,7 +24,7 @@ Esta visualización presenta la proporción de artículos de prensa incluidos en
   </iframe>
 </div>
 
-##### b. Cantidad de publicaciones por género periodístico
+##### Cantidad de publicaciones por género periodístico
 
 Este mapa de calor muestra la relación entre los periódicos consultados y los géneros periodísticos identificados en cada artículo. La visualización permite observar cómo se distribuyen estas categorías en el corpus y ofrece un panorama general de los enfoques narrativos presentes en la colección.
 
@@ -37,7 +37,7 @@ La categorización de géneros fue definida específicamente para este proyecto 
   </iframe>
 </div>
 
-##### c. Distribución de géneros por década
+##### Distribución de géneros por década
 
 Este gráfico compara la cantidad de artículos publicados en los años ochenta y noventa según su género periodístico. La visualización permite observar cómo se distribuyen estas categorías a lo largo del periodo analizado y ofrece un panorama temporal que facilita comprender la composición del corpus en ambas décadas.
 
@@ -52,7 +52,7 @@ Este gráfico compara la cantidad de artículos publicados en los años ochenta 
 ## Voyant Tools
 Voyant Tools fue la primera herramienta empleada para el análisis textual del corpus. Su interfaz permite explorar de manera general las palabras más frecuentes, las relaciones entre términos y la estructura global de los textos procesados. Las visualizaciones incluidas ofrecen una muestra de esta aproximación inicial y ejemplifican las posibilidades de lectura global que brinda la herramienta.
 #### Resumen del Corpus
-La vista Summary reúne varias métricas generales del corpus utilizado en el análisis textual, como la cantidad de documentos procesados, el total de palabras, el número de términos únicos y la longitud relativa de los textos. También incluye indicadores como la densidad de vocabulario, el promedio de palabras por oración y las palabras distintivas de cada documento. Estas medidas permiten obtener una visión preliminar de la composición y las características globales del corpus.
+La vista *Summary* reúne varias métricas generales del corpus utilizado en el análisis textual, como la cantidad de documentos procesados, el total de palabras, el número de términos únicos y la longitud relativa de los textos. También incluye indicadores como la densidad de vocabulario, el promedio de palabras por oración y las palabras distintivas de cada documento. Estas medidas permiten obtener una visión preliminar de la composición y las características globales del corpus.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <iframe 
