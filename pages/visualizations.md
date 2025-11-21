@@ -116,9 +116,9 @@ La visualización *Contexts* muestra fragmentos del corpus en los que aparece la
 ## Orange Data Mining
 Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura global obtenida con Voyant Tools mediante tres aproximaciones diferentes: la identificación automática de palabras clave, la agrupación de artículos según su similitud lingüística y la evaluación del tono emocional del corpus. Juntas, estas vistas permiten apreciar aspectos más finos del discurso periodístico sobre el rock en Colombia y ofrecen una mirada comparativa entre relevancia léxica, organización temática y polaridad del lenguaje
 
-#### Extracción de palabras clave (YAKE + RAKE)
+#### Extracción de palabras clave (YAKE! + RAKE)
 
-Esta visualización presenta las palabras clave identificadas automáticamente mediante los algoritmos de extracción *YAKE y RAKE*. A diferencia de las frecuencias generales del vocabulario, estos métodos señalan los términos más relevantes según su papel dentro del discurso. La selección resultante refina la lectura del corpus y permite identificar conceptos centrales como *rock, grupo, concierto* o *Bogotá*, que organizan gran parte de la narrativa periodística sobre la escena musical.
+Esta visualización presenta las palabras clave identificadas automáticamente mediante los algoritmos de extracción *YAKE! y RAKE*. A diferencia de las frecuencias generales del vocabulario, estos métodos señalan los términos más relevantes según su papel dentro del discurso. La selección resultante refina la lectura del corpus y permite identificar conceptos centrales como *rock, grupo, concierto* o *Bogotá*, que organizan gran parte de la narrativa periodística sobre la escena musical.
 
 <div class="d-flex justify-content-center my-4">
   <img 
