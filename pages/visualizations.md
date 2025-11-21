@@ -13,7 +13,7 @@ Esta sección reúne un conjunto de visualizaciones diseñadas para ofrecer una 
 
 ## Visualizaciones generales
 
-#### Cantidad de publicaciones por periódico
+#### 1️⃣ Cantidad de publicaciones por periódico
 
 Esta visualización presenta la proporción de artículos de prensa incluidos en la colección según su medio de origen. Permite observar cómo se distribuye el corpus entre los distintos periódicos consultados. Esta distribución ofrece una primera aproximación a la diversidad de fuentes que documentaron el desarrollo del rock colombiano entre 1985 y 1995.
 
