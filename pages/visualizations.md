@@ -116,7 +116,25 @@ La visualización *Contexts* muestra fragmentos del corpus en los que aparece la
 ## Orange Data Mining
 Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura global obtenida con Voyant Tools mediante tres aproximaciones diferentes: la identificación automática de palabras clave, la agrupación de artículos según su similitud lingüística y la evaluación del tono emocional del corpus. Juntas, estas vistas permiten apreciar aspectos más finos del discurso periodístico sobre el rock en Colombia y ofrecen una mirada comparativa entre relevancia léxica, organización temática y polaridad del lenguaje
 
+#### Extracción de palabras clave (YAKE + RAKE)
 
+Esta visualización presenta las palabras clave identificadas automáticamente mediante los algoritmos de extracción *YAKE y RAKE*. A diferencia de las frecuencias generales del vocabulario, estos métodos señalan los términos más relevantes según su papel dentro del discurso. La selección resultante refina la lectura del corpus y permite identificar conceptos centrales como *rock, grupo, concierto* o *Bogotá*, que organizan gran parte de la narrativa periodística sobre la escena musical.
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/extract_keywords.png" 
+    alt="Visualización Extract Keywords"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
+
+
+#### Mapa del corpus (t-SNE)
+
+El mapa del corpus muestra una representación aproximada de la similitud lingüística entre los artículos, agrupándolos según patrones compartidos de vocabulario. Aunque no corresponde a una distribución espacial real, esta proyección permite observar zonas temáticas donde convergen textos relacionados con conciertos, violencia, festivales, artistas o coyunturas específicas. La visualización ofrece así una mirada global a la estructura interna del corpus y a sus afinidades discursivas.
+
+#### Análisis de sentimiento
+
+Esta visualización muestra los valores de sentimiento asignados automáticamente a cada artículo, ubicados en un rango continuo entre polos negativos y positivos. Los resultados se concentran mayoritariamente en niveles intermedios, lo que sugiere que el discurso periodístico sobre el rock en Colombia no estuvo dominado por tonos marcadamente negativos. Aunque se trata de una aproximación automatizada, la gráfica aporta un indicio general sobre la carga emocional del lenguaje utilizado en los textos.
 ---
 ## AntConc
 
