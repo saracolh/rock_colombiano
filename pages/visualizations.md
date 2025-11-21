@@ -118,7 +118,7 @@ Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura g
 
 #### Extracción de palabras clave (YAKE! + RAKE)
 
-Esta visualización presenta las palabras clave identificadas automáticamente mediante los algoritmos de extracción *YAKE! y RAKE*. A diferencia de las frecuencias generales del vocabulario, estos métodos señalan los términos más relevantes según su papel dentro del discurso. La selección resultante refina la lectura del corpus y permite identificar conceptos centrales como *rock, grupo, concierto* o *Bogotá*, que organizan gran parte de la narrativa periodística sobre la escena musical.
+Esta visualización presenta las palabras clave identificadas automáticamente mediante los algoritmos de extracción *YAKE! y Rake*. A diferencia de las frecuencias generales del vocabulario, estos métodos señalan los términos más relevantes según su papel dentro del discurso. La selección resultante refina la lectura del corpus y permite identificar conceptos centrales como *rock, grupo, concierto* o *Bogotá*, que organizan gran parte de la narrativa periodística sobre la escena musical.
 
 <div class="d-flex justify-content-center my-4">
   <img 
@@ -154,4 +154,7 @@ Esta visualización muestra los valores de sentimiento asignados automáticament
 ---
 ## AntConc
 
+
+
+Esta nube de palabras presenta los términos que aparecen con mayor frecuencia en el corpus procesado en AntConc. Aunque comparte algunos términos con las nubes generadas en Voyant Tools, esta visualización presenta una distribución diferente debido a la manera en que AntConc procesa el vocabulario del corpus. Su lectura complementa las perspectivas obtenidas con otras herramientas empleadas en el análisis.
 ---
