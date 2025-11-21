@@ -13,7 +13,7 @@ Esta sección reúne un conjunto de visualizaciones diseñadas para ofrecer una 
 
 ## Visualizaciones generales
 
-##### Cantidad de publicaciones por periódico
+#### Cantidad de publicaciones por periódico
 
 Esta visualización presenta la proporción de artículos de prensa incluidos en la colección según su medio de origen. Permite observar cómo se distribuye el corpus entre los distintos periódicos consultados. Esta distribución ofrece una primera aproximación a la diversidad de fuentes que documentaron el desarrollo del rock colombiano entre 1985 y 1995.
 
@@ -24,7 +24,7 @@ Esta visualización presenta la proporción de artículos de prensa incluidos en
   </iframe>
 </div>
 
-##### Cantidad de publicaciones por género periodístico
+#### Cantidad de publicaciones por género periodístico
 
 Este mapa de calor muestra la relación entre los periódicos consultados y los géneros periodísticos identificados en cada artículo. La visualización permite observar cómo se distribuyen estas categorías en el corpus y ofrece un panorama general de los enfoques narrativos presentes en la colección.
 
@@ -37,7 +37,7 @@ La categorización de géneros fue definida específicamente para este proyecto 
   </iframe>
 </div>
 
-##### Distribución de géneros por década
+#### Distribución de géneros por década
 
 Este gráfico compara la cantidad de artículos publicados en los años ochenta y noventa según su género periodístico. La visualización permite observar cómo se distribuyen estas categorías a lo largo del periodo analizado y ofrece un panorama temporal que facilita comprender la composición del corpus en ambas décadas.
 
