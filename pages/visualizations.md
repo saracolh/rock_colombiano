@@ -130,11 +130,27 @@ Esta visualización presenta las palabras clave identificadas automáticamente m
 
 #### Mapa del corpus (t-SNE)
 
-El mapa del corpus muestra una representación aproximada de la similitud lingüística entre los artículos, agrupándolos según patrones compartidos de vocabulario. Aunque no corresponde a una distribución espacial real, esta proyección permite observar zonas temáticas donde convergen textos relacionados con conciertos, violencia, festivales, artistas o coyunturas específicas. La visualización ofrece así una mirada global a la estructura interna del corpus y a sus afinidades discursivas.
+El mapa del corpus muestra una representación aproximada de la similitud lingüística entre los artículos, agrupándolos según patrones compartidos de vocabulario. Esta proyección permite observar zonas temáticas donde convergen textos relacionados con conciertos, violencia, festivales, artistas o coyunturas específicas. La visualización ofrece así una mirada global a la estructura interna del corpus y a sus afinidades discursivas.
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/anoted_corpus_map_Orange.png" 
+    alt="Mapa del corpus generado con t-SNE en Orange"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
+
 
 #### Análisis de sentimiento
 
-Esta visualización muestra los valores de sentimiento asignados automáticamente a cada artículo, ubicados en un rango continuo entre polos negativos y positivos. Los resultados se concentran mayoritariamente en niveles intermedios, lo que sugiere que el discurso periodístico sobre el rock en Colombia no estuvo dominado por tonos marcadamente negativos. Aunque se trata de una aproximación automatizada, la gráfica aporta un indicio general sobre la carga emocional del lenguaje utilizado en los textos.
+Esta visualización muestra los valores de sentimiento asignados automáticamente a cada artículo, ubicados en un rango continuo entre polos negativos, neutros y positivos. Los resultados se concentran mayoritariamente en niveles intermedios, lo que sugiere que el discurso periodístico sobre el rock en Colombia no estuvo dominado por tonos marcadamente negativos. Aunque se trata de una aproximación automatizada, la gráfica aporta un indicio general sobre la carga emocional del lenguaje utilizado en los textos.
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/sentimientos.png" 
+    alt="Visualización del análisis de sentimiento"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
+
 ---
 ## AntConc
 
