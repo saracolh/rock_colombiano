@@ -110,7 +110,7 @@ La visualización *RezoViz* muestra una red de entidades identificadas en el cor
 
 ---
 ## Orange Data Mining
-Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura global obtenida con *Voyant Tools* mediante tres aproximaciones diferentes: la identificación automática de palabras clave, la agrupación de artículos según su similitud lingüística y la evaluación del tono emocional del corpus. Juntas, estas vistas permiten apreciar aspectos más finos del discurso periodístico sobre el rock en Colombia y ofrecen una mirada comparativa entre relevancia léxica, organización temática y polaridad del lenguaje
+Las visualizaciones realizadas en *Orange Data Mining* complementan la lectura global obtenida con *Voyant Tools* mediante tres aproximaciones diferentes: la identificación automática de palabras clave, la agrupación de artículos según su similitud lingüística y la evaluación del tono emocional del corpus. Juntas, estas vistas permiten apreciar aspectos más finos del discurso periodístico sobre el rock en Colombia y ofrecen una mirada comparativa entre relevancia léxica, organización temática y polaridad del lenguaje.
 
 #### Extracción de palabras clave (YAKE! + RAKE)
 
@@ -150,14 +150,34 @@ Esta visualización muestra los valores de sentimiento asignados automáticament
 ---
 ## AntConc
 
-*AntConc* fue la tercera herramienta empleada en el análisis textual del corpus. A diferencia de Voyant Tools y Orange Data Mining, que ofrecen vistas globales del vocabulario y de la estructura de los documentos, AntConc se orienta a examinar el uso de palabras específicas dentro de los textos. Las visualizaciones incluidas en esta sección combinan una nube de palabras, que resume los términos más frecuentes del corpus procesado en la herramienta, con ejemplos de concordancias (KWIC) de términos representativos como rock y juventud, que permiten observar sus apariciones en el contexto original de los artículos.
+*AntConc* fue la tercera herramienta empleada en el análisis textual del corpus. A diferencia de *Voyant Tools* y *Orange Data Mining*, que ofrecen vistas globales del vocabulario y de la estructura de los documentos, AntConc permite realizar búsquedas focalizadas y observar de manera puntual cómo aparecen determinadas palabras dentro de los textos. Las visualizaciones incluidas en esta sección presentan ejemplos de estos patrones mediante *clusters, collocates* y *concordancias (KWIC)*, que muestran combinaciones frecuentes, palabras asociadas y fragmentos originales del corpus donde cada términoaparece acompañado por el texto que lo rodea.
 
-##### Nube de palabras
-Esta nube de palabras presenta los términos que aparecen con mayor frecuencia en el corpus procesado en AntConc. Aunque comparte algunos términos con las nubes generadas en *Voyant Tools*, esta visualización presenta una distribución diferente debido a la manera en que *AntConc* procesa el vocabulario del corpus. Su lectura complementa las perspectivas obtenidas con otras herramientas empleadas en el análisis.
 
-##### Contextos término *"Rock*
+##### Combinaciones frecuentes de palabras asociadas al término *"rock"*
 
-La vista KWIC (Key Word in Context) de AntConc permite observar el término rock dentro de su entorno inmediato en los textos del corpus. La herramienta muestra, en columnas separadas, el fragmento previo al término, la palabra buscada y el fragmento que aparece a su derecha.
+La visualización de *clusters* muestra las secuencias de dos palabras que aparecen con mayor frecuencia junto al término *rock* dentro del corpus. *AntConc* identifica estos patrones a partir de combinaciones recurrentes en los textos, agrupando las palabras que forman unidades léxicas habituales como *rock nacional, rock colombiano, rock pesado* o *rock latino*. Este tipo de consulta permite observar cómo el término se articula con otros adjetivos o nociones dentro de las noticias, revelando las expresiones que los artículos repiten con mayor regularidad.
 
-El resultado presenta una lista de todas las apariciones de rock en los artículos, organizada línea por línea para facilitar la lectura comparada. Esta visualización permite identificar de manera rápida las palabras y expresiones que suelen acompañar al término en el corpus, así como los contextos textuales en los que aparece.
+
+##### Palabras frecuentes junto al término *"rock"*
+
+La visualización de *collocates* presenta las palabras que aparecen con mayor frecuencia junto al término rock dentro del corpus, calculadas a partir de su proximidad inmediata en los textos. AntConc identifica estas coocurrencias mediante conteos literales y las ordena según medidas estadísticas como *la frecuencia, el rango* y *la verosimilitud (likelihood)*. En este caso, los términos asociados incluyen expresiones como español, nacional, colombiano, pesado, pop o latino, entre otros. Esta vista permite observar qué palabras tienden a aparecer cerca del término buscado y cuáles forman combinaciones recurrentes en el corpus.
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/collocates.png" 
+    alt="Visualización colocaciones"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
+
+##### Contextos término *"rock"*
+
+La vista *KWIC (Key Word in Context)* de *AntConc* permite observar el término rock dentro de su entorno inmediato en los textos del corpus. La herramienta muestra, en columnas separadas, el fragmento previo al término, la palabra buscada y el fragmento que aparece a su derecha. El resultado presenta una lista de todas las apariciones de *rock* en los artículos, organizada línea por línea para facilitar la lectura comparada. Esta visualización permite identificar de manera rápida las palabras y expresiones que suelen acompañar al término en el corpus, así como los contextos textuales en los que aparece.
+
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/kwic.png" 
+    alt="Visualización de contextos"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
 ---
