@@ -5,6 +5,7 @@ permalink: /about.html
 credits: false
 ---
 {% include feature/jumbotron.html objectid="/assets/img/1988-09-03_esplendordelrock.png" %}
+
 {% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Sara Colmenares" %}
 
 ## Acerca de la Colección
