@@ -25,12 +25,7 @@ Los contenidos incluidos en esta colección se presentan bajo el amparo del dere
 
 El archivo *.CSV* con metadatos, así como las visualizaciones y resultados derivados del análisis, se publican de manera abierta para su consulta, reutilización y verificación, siguiendo principios de ciencia abierta y buenas prácticas en Humanidades Digitales.
 
----
 ## Acerca de Sara Colmenares
 
-Soy Sara Colmenares Hernández, profesional en Ciencia de la Información, Bibliotecóloga y Archivista, y estudiante de la Maestría en Humanidades Digitales en la Universidad de los Andes. Mi experiencia se ha desarrollado en la organización, descripción y preservación de documentos y colecciones, así como en la gestión y análisis de datos en entornos digitales.
-
-Me interesan las visualizaciones de datos aplicadas a distintos procesos de análisis y organización de información, y trabajo con bases de datos, digitalización, creación de colecciones y análisis textual. Prefiero herramientas de código abierto y enfoques de minimal computing orientados a la sostenibilidad y al acceso abierto, y busco impulsar proyectos que integren las humanidades y la tecnología para fortalecer la preservación, la difusión y la apropiación social de la memoria colectiva y el patrimonio cultural.
-
-
+Soy Sara Colmenares Hernández, profesional en Ciencia de la Información, Bibliotecóloga y Archivista, y estudiante de la Maestría en Humanidades Digitales en la Universidad de los Andes. Mi experiencia se ha desarrollado en la organización, descripción y preservación de documentos y colecciones, así como en la gestión y análisis de datos en entornos digitales. Me interesan las visualizaciones de datos aplicadas a distintos procesos de análisis y organización de información, y trabajo con bases de datos, digitalización, creación de colecciones y análisis textual. Prefiero herramientas de código abierto y enfoques de minimal computing orientados a la sostenibilidad y al acceso abierto, y busco impulsar proyectos que integren las humanidades y la tecnología para fortalecer la preservación, la difusión y la apropiación social de la memoria colectiva y el patrimonio cultural.
 ---
