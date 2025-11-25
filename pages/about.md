@@ -4,7 +4,7 @@ layout: about
 permalink: /about.html
 credits: false
 ---
-{% include feature/jumbotron.html objectid="/assets/img/1988-09-18_bogotavibro.png" %}
+{% include feature/jumbotron.html objectid="/assets/img/1988-09-03_esplendordelrock.png" %}
 {% include feature/nav-menu.html sections="Acerca de la Colección;Acerca de Sara Colmenares" %}
 
 ## Acerca de la Colección
@@ -21,7 +21,7 @@ La colección abre líneas de trabajo futuras. Es posible ampliar el corpus a ot
 
 #### Derechos de autor y uso de materiales
 
-Los contenidos incluidos en esta colección se presentan bajo el amparo del derecho de cita con fines académicos. Los artículos originales pertenecen a sus respectivos medios y autores. La colección no reproduce el contenido completo de las publicaciones, sino que integra fragmentos mínimos con propósito analítico y educativo.
+Los contenidos incluidos en esta colección se presentan bajo el amparo del derecho de cita con fines académicos. Los artículos originales pertenecen a sus respectivos medios y autores. La colección no reproduce el contenido completo de las publicaciones, sino que integra fragmentos o desenfoque con propósito analítico y educativo.
 
 El archivo *.CSV* con metadatos, así como las visualizaciones y resultados derivados del análisis, se publican de manera abierta para su consulta, reutilización y verificación, siguiendo principios de ciencia abierta y buenas prácticas en Humanidades Digitales.
 
