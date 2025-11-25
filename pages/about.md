@@ -21,9 +21,7 @@ La colección abre líneas de trabajo futuras. Es posible ampliar el corpus a ot
 
 #### Derechos de autor y uso de materiales
 
-Los contenidos incluidos en esta colección se presentan bajo el amparo del derecho de cita con fines académicos, de acuerdo con la legislación colombiana sobre propiedad intelectual.
-
-Los artículos originales pertenecen a sus respectivos medios y autores. La colección no reproduce el contenido completo de las publicaciones, sino que integra fragmentos mínimos con propósito analítico y educativo.
+Los contenidos incluidos en esta colección se presentan bajo el amparo del derecho de cita con fines académicos. Los artículos originales pertenecen a sus respectivos medios y autores. La colección no reproduce el contenido completo de las publicaciones, sino que integra fragmentos mínimos con propósito analítico y educativo.
 
 El archivo *.CSV* con metadatos, así como las visualizaciones y resultados derivados del análisis, se publican de manera abierta para su consulta, reutilización y verificación, siguiendo principios de ciencia abierta y buenas prácticas en Humanidades Digitales.
 
