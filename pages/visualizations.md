@@ -150,12 +150,19 @@ Esta visualización muestra los valores de sentimiento asignados automáticament
 ---
 ## AntConc
 
-*AntConc* fue la tercera herramienta empleada en el análisis textual del corpus. A diferencia de *Voyant Tools* y *Orange Data Mining*, que ofrecen vistas globales del vocabulario y de la estructura de los documentos, AntConc permite realizar búsquedas focalizadas y observar de manera puntual cómo aparecen determinadas palabras dentro de los textos. Las visualizaciones incluidas en esta sección presentan ejemplos de estos patrones mediante *clusters, collocates* y *concordancias (KWIC)*, que muestran combinaciones frecuentes, palabras asociadas y fragmentos originales del corpus donde cada términoaparece acompañado por el texto que lo rodea.
+*AntConc* fue la tercera herramienta empleada en el análisis textual del corpus. A diferencia de *Voyant Tools* y *Orange Data Mining*, que ofrecen vistas globales del vocabulario y de la estructura de los documentos, *AntConc* permite realizar búsquedas focalizadas y observar de manera puntual cómo aparecen determinadas palabras dentro de los textos. Las visualizaciones incluidas en esta sección presentan ejemplos de estos patrones mediante *clusters, collocates* y *concordancias (KWIC)*, que muestran combinaciones frecuentes, palabras asociadas y fragmentos originales del corpus donde cada término aparece acompañado por el texto que lo rodea.
 
 
 ##### Combinaciones frecuentes de palabras asociadas al término *"rock"*
 
 La visualización de *clusters* muestra las secuencias de dos palabras que aparecen con mayor frecuencia junto al término *rock* dentro del corpus. *AntConc* identifica estos patrones a partir de combinaciones recurrentes en los textos, agrupando las palabras que forman unidades léxicas habituales como *rock nacional, rock colombiano, rock pesado* o *rock latino*. Este tipo de consulta permite observar cómo el término se articula con otros adjetivos o nociones dentro de las noticias, revelando las expresiones que los artículos repiten con mayor regularidad.
+
+<div class="d-flex justify-content-center my-4">
+  <img 
+    src="assets/img/clusters.png" 
+    alt="Visualización clusters"
+    style="width: 1422px; height: 556px; object-fit: contain;">
+</div>
 
 
 ##### Palabras frecuentes junto al término *"rock"*
